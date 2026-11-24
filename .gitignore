@@ -1,0 +1,11 @@
+*.apk
+*.jks
+*.keystore
+*.idsig
+*.log
+*.jar
+*.pyc
+__pycache__/
+decoded/build/
+decoded/dist/
+decoded/original/

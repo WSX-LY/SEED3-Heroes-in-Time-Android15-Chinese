@@ -1,0 +1,174 @@
+.class public Lch/kingdoms/android/network/ChPacketFactory$CheckCashPoint;
+.super Lch/kingdoms/android/network/ChPacketFactory$ChPacket;
+.source "ChPacketFactory.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lch/kingdoms/android/network/ChPacketFactory;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "CheckCashPoint"
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lch/kingdoms/android/network/ChPacketFactory;
+
+
+# direct methods
+.method public constructor <init>(Lch/kingdoms/android/network/ChPacketFactory;Lch/kingdoms/android/network/ChPacketFactory$OnResultListener;Ljava/lang/String;)V
+    .locals 0
+    .param p2, "_orl"    # Lch/kingdoms/android/network/ChPacketFactory$OnResultListener;
+    .param p3, "_phoneNumber"    # Ljava/lang/String;
+
+    .prologue
+    .line 2173
+    iput-object p1, p0, Lch/kingdoms/android/network/ChPacketFactory$CheckCashPoint;->this$0:Lch/kingdoms/android/network/ChPacketFactory;
+
+    .line 2174
+    invoke-direct {p0, p1, p2, p3}, Lch/kingdoms/android/network/ChPacketFactory$ChPacket;-><init>(Lch/kingdoms/android/network/ChPacketFactory;Lch/kingdoms/android/network/ChPacketFactory$OnResultListener;Ljava/lang/String;)V
+
+    .line 2176
+    return-void
+.end method
+
+
+# virtual methods
+.method protected onResponse(ILch/android/api/network/ChDataInput;I)Lch/android/api/network/ChResultPacket;
+    .locals 3
+    .param p1, "_resultCode"    # I
+    .param p2, "_dataInput"    # Lch/android/api/network/ChDataInput;
+    .param p3, "_len"    # I
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .prologue
+    .line 2198
+    sparse-switch p1, :sswitch_data_0
+
+    .line 2208
+    new-instance v1, Lch/android/api/network/ChResultPacket;
+
+    const/16 v2, 0x272d
+
+    invoke-direct {v1, v2}, Lch/android/api/network/ChResultPacket;-><init>(I)V
+
+    .line 2211
+    .local v1, "resultPacket":Lch/android/api/network/ChResultPacket;
+    :goto_0
+    return-object v1
+
+    .line 2200
+    .end local v1    # "resultPacket":Lch/android/api/network/ChResultPacket;
+    :sswitch_0
+    invoke-interface {p2}, Lch/android/api/network/ChDataInput;->readInt()I
+
+    move-result v0
+
+    .line 2201
+    .local v0, "first":I
+    new-instance v1, Lch/android/api/network/ChResultPacket;
+
+    const/16 v2, 0x2710
+
+    invoke-direct {v1, v2}, Lch/android/api/network/ChResultPacket;-><init>(I)V
+
+    .line 2202
+    .restart local v1    # "resultPacket":Lch/android/api/network/ChResultPacket;
+    invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lch/android/api/network/ChResultPacket;->add(Ljava/lang/String;)V
+
+    goto :goto_0
+
+    .line 2205
+    .end local v0    # "first":I
+    .end local v1    # "resultPacket":Lch/android/api/network/ChResultPacket;
+    :sswitch_1
+    new-instance v1, Lch/android/api/network/ChResultPacket;
+
+    const/16 v2, 0x2715
+
+    invoke-direct {v1, v2}, Lch/android/api/network/ChResultPacket;-><init>(I)V
+
+    .line 2206
+    .restart local v1    # "resultPacket":Lch/android/api/network/ChResultPacket;
+    goto :goto_0
+
+    .line 2198
+    :sswitch_data_0
+    .sparse-switch
+        0x0 -> :sswitch_0
+        0xff -> :sswitch_1
+    .end sparse-switch
+.end method
+
+.method protected send(Lch/android/api/network/ChNetwork;)V
+    .locals 6
+    .param p1, "_network"    # Lch/android/api/network/ChNetwork;
+
+    .prologue
+    .line 2182
+    :try_start_0
+    iget-object v3, p0, Lch/kingdoms/android/network/ChPacketFactory$ChPacket;->PHONE_NUMBER:Ljava/lang/String;
+
+    invoke-static {v3}, Lch/android/api/network/ChByte;->valueOfMBCS(Ljava/lang/String;)[B
+
+    move-result-object v2
+
+    .line 2183
+    .local v2, "phoneNumberBytes":[B
+    array-length v3, v2
+
+    invoke-static {v3}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
+
+    move-result-object v0
+
+    .line 2184
+    .local v0, "buffer":Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, v2}, Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
+
+    .line 2185
+    invoke-virtual {v0}, Ljava/nio/ByteBuffer;->flip()Ljava/nio/Buffer;
+
+    .line 2186
+    const/16 v3, 0x3f0
+
+    const/16 v4, 0xb7
+
+    invoke-virtual {v0}, Ljava/nio/ByteBuffer;->array()[B
+
+    move-result-object v5
+
+    invoke-static {v3, v4, v5}, Lch/kingdoms/android/network/ChPacketFactory;->create(II[B)[B
+
+    move-result-object v3
+
+    invoke-super {p0, p1, v3}, Lch/kingdoms/android/network/ChPacketFactory$ChPacket;->send(Lch/android/api/network/ChNetwork;[B)V
+    :try_end_0
+    .catch Ljava/io/UnsupportedEncodingException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 2191
+    .end local v0    # "buffer":Ljava/nio/ByteBuffer;
+    .end local v2    # "phoneNumberBytes":[B
+    :goto_0
+    return-void
+
+    .line 2187
+    :catch_0
+    move-exception v1
+
+    .line 2189
+    .local v1, "e":Ljava/io/UnsupportedEncodingException;
+    invoke-virtual {v1}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
+
+    goto :goto_0
+.end method
