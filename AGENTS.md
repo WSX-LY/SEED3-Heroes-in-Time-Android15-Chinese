@@ -49,3 +49,19 @@ adb shell am start -n ch.kingdoms.market.compat/ch.kingdoms.kor.KingdomsActivity
 ## v11 当前验收版本
 
 2026-11-25，用户确认 SEED3-local-shop-v11.apk 验收无问题。当前目标版本为 API 28。包含去除应用列表扫描、电话标识读取、外链入口，Help/Option/商城文本汉化、本地购买，以及游戏自带 INFO 购买结果提示。说明正文恢复原字号。后续修改提示样式须复用游戏 INFO 面板，不能擅自换成系统 Toast 或地图短消息，也不要额外调整无关文字大小。本地解锁和点数记录会随卸载清除。
+
+## 菜单高清预览 v12
+
+2026-11-25，生成 SEED3-menu-HD-preview-v12.apk，18 张启动与主菜单静态资源放大至两倍。Real-ESRGAN ncnn-vulkan 20220424，realesr-animevideov3 模型，用于 icon、title_back、title_left_ch、title_right_ch。@kayahr/xbrz 1.1.2 用于三个开发商标志、标题标志、菜单文字、touchme 和 main_menu_bg。使用 drawable-480dpi-v4 与 drawable-320dpi-v4 保持显示尺寸。原低分辨率资源保留。首次安装曾返回 INSTALL_FAILED_ABORTED；随后全新安装成功，实机结果见下方安装记录。工具与模型在 C:\Users\Administrator\seed3-upscale，处理脚本已复制到 tools。当前主分支 Release v0.11.0 仍为先前验收版本，此预览尚未发布。
+
+## v12 高清预览安装记录
+2026-11-25，SEED3-menu-HD-preview-v12.apk 已全新安装成功并启动。实机截图确认到达标题触屏页面，人物、背景与标题位置正常；本次 PID 8272 日志未检出 FATAL EXCEPTION、JNI DETECTED 或 Fatal signal。主菜单按钮仍待用户点击进入后验收。截图：C:\Users\Administrator\seed3-debug\hd-v12-running.png。此版仅为本地预览，尚未发布到远端。
+
+## 后续资源高清化规范（2026-11-25 用户确认）
+
+- 启动画面至主菜单的现有 v12 高清资源保持现状，不继续提高倍率或重新处理。
+- 后续其他资源采用「背景、人物 4×，其余 2×」：倍率均相对于原始素材的宽、高，不能在已超分的素材上再次叠加放大。
+- 背景和人物插画以 Real-ESRGAN 处理为主；像素风图标、按钮、文字图片等以 xBRZ 处理为主，按素材实际风格选择算法并检查效果。
+- 高清化保持原有画面布局、显示尺寸、透明通道和交互区域。图集或精灵资源须同步处理切片坐标与加载逻辑，不能仅替换大图导致错位。
+- 保留原始素材；新增高清资源须检查透明边缘、图集接缝、文字可读性及实机内存和加载情况，再交由用户验收。
+- 本条记录后续处理规则，不代表已授权本次继续批量修改资源或安装新包。
