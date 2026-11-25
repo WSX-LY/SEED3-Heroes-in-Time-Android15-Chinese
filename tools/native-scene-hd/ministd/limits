@@ -1,0 +1,2 @@
+#pragma once
+namespace std { template<class T> struct numeric_limits; template<> struct numeric_limits<int> { static constexpr int max(){return 2147483647;} }; }

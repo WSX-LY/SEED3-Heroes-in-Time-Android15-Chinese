@@ -2,7 +2,19 @@
 
 [简体中文](README.md)
 
-Compatibility patches, layout fixes and ongoing Simplified Chinese UI localization for SEED3 - Heroes in Time (SEED 3). Version v0.11.0 corresponds to the tested SEED3-local-shop-v11.apk build.
+Compatibility patches, layout fixes and ongoing Simplified Chinese UI localization for SEED3 - Heroes in Time (SEED 3). The latest release is **v0.15.0 HD experiment**, packaged as `SEED3-scene-HD-experiment-v15.apk`.
+
+[Download APK](https://github.com/WSX-LY/SEED3-Heroes-in-Time-Android15-Chinese/releases/download/v0.15.0/SEED3-scene-HD-experiment-v15.apk) · [Release and checksums](https://github.com/WSX-LY/SEED3-Heroes-in-Time-Android15-Chinese/releases/tag/v0.15.0)
+
+## v0.15.0 changes
+
+- Add 639 UI assets at 2× and 23 floating character illustration/expression assets at 4×; retain the 2× startup/menu assets.
+- Add real-time xBRZ 4× scene output, from 512×256 to 2048×1024. Independent 4× scene source textures are not yet integrated.
+- Preserve equipment layouts with higher-density assets; include native image/animation parsers, build source and an A/B toggle.
+- Checked on vivo V2170A / Android 15: town, brief movement, character page and A/B switching. Combat, all maps, sustained thermal behavior and other devices remain untested.
+- Cumulative filter/upload averages were about 12ms/1ms, with roughly 73MiB for lookup/frame buffers. This is experimental; previous releases remain available for rollback.
+
+![Original (left) and real-time 4× (right)](docs/images/scene-hd-comparison.png)
 
 ## v0.11.0 changes
 
@@ -41,7 +53,7 @@ On the tested phone, replacing an installed build failed. Uninstall the previous
 ```powershell
 adb devices -l
 adb uninstall ch.kingdoms.market.compat
-adb install --no-incremental --bypass-low-target-sdk-block SEED3-local-shop-v11.apk
+adb install --no-incremental --bypass-low-target-sdk-block SEED3-scene-HD-experiment-v15.apk
 adb shell am start -n ch.kingdoms.market.compat/ch.kingdoms.kor.KingdomsActivity
 ```
 
@@ -62,8 +74,8 @@ Use Java, Apktool 2.12.1 and Android SDK Build Tools. Build from an ASCII-only p
 ```powershell
 java -jar tools/apktool.jar b decoded -o unsigned.apk
 zipalign -f 4 unsigned.apk aligned.apk
-apksigner sign --ks YOUR_KEYSTORE --out SEED3-local-shop-v11.apk aligned.apk
-apksigner verify SEED3-local-shop-v11.apk
+apksigner sign --ks YOUR_KEYSTORE --out SEED3-scene-HD-experiment-v15.apk aligned.apk
+apksigner verify SEED3-scene-HD-experiment-v15.apk
 ```
 
 Tool binaries, original APKs, build outputs, logs and signing keys are excluded from Git. Obtain Apktool from its official releases.
@@ -75,8 +87,22 @@ This is an unofficial compatibility and translation project. Original game code,
 
 ## HD preview and next steps
 
-The source includes 18 startup and main-menu assets upscaled 2× for v12 using Real-ESRGAN and xBRZ. Resource density preserves their original display size. The title touch screen has been verified on the device; individual main-menu buttons still need review. The published release remains v0.11.0.
+The source includes 18 startup and main-menu assets upscaled 2× for v12 using Real-ESRGAN and xBRZ. Resource density preserves their original display size. The title touch screen has been verified on the device; individual main-menu buttons still need review. The latest release is the v0.15.0 HD experiment.
 
 Keep the startup and main-menu assets as they are. Future work uses 4× for backgrounds and characters and 2× for other assets, measured from the original source. Preserve layout and touch areas, and check visual quality, memory use and loading.
 
 `tools/upscale-menu.py` and `tools/scale-xbrz.mjs` record the 2× preview workflow and contain development-machine paths that must be adjusted. Dependencies: Python/Pillow, Node.js, `@kayahr/xbrz`, `pngjs`, and Real-ESRGAN ncnn-vulkan with the `realesr-animevideov3` model. Tool binaries and models are not included.
+
+### In-game UI HD preview v14
+
+Adds 639 UI assets at 2× (xBRZ) and 23 floating character illustration/expression assets at 4× (Real-ESRGAN). Covers status bars, directional controls, attack/skill slots, menus, inventory/skill icons, panels and popups. Scene maps and walking sprites are unchanged; startup and main-menu assets retain v12. Original artwork is retained. Density qualifiers preserve display size, with a compatibility fix for equipment layouts that use raw image bounds.
+
+Scripts and manifests: `tools/upscale-ui.py`, `tools/upscale-ui-characters.py`, `tools/hd-ui-manifest.json`, `tools/hd-ui-characters-manifest.json`. Dependencies are listed above; both Python scripts accept `--project` and `--work` arguments.
+
+The intermediate v13 was checked on-device across the main controls and major menus. Empty inventory and locked skills limit coverage. v14 is installed. On-device checks confirmed the main controls and character page retain their layout and the 4× character illustration displays correctly. No crash or out-of-memory errors were found in the current process log. Other NPC illustrations, expressions and all item detail states have not been individually reviewed. The latest release is the v0.15.0 HD experiment.
+
+### Real-time scene 4× experiment v15
+
+The completed 512×256 scene is upscaled using xBRZ to 2048×1024 at texture upload, retaining the v14 UI. Independent 4× character/map source textures are not yet integrated. Town A/B toggling, brief movement and the character page were checked. Cumulative filter/upload averages were about 12ms/1ms on the connected phone, with approximately 73 MiB for lookup/frame buffers. Combat, all maps and sustained performance remain untested.
+
+Native image and animation parsers are included. See the [technical notes](tools/native-scene-hd/README.md) for source, build instructions, device restrictions and the A/B toggle. The latest release is the v0.15.0 HD experiment.

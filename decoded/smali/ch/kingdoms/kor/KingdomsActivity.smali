@@ -70,6 +70,20 @@
 
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
+    :try_start_scene_hd
+    const-string v0, "seed3_scene_hd"
+    invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+    :try_end_scene_hd
+    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_scene_hd .. :try_end_scene_hd} :catch_scene_hd
+    goto :scene_hd_loaded
+    :catch_scene_hd
+    move-exception v0
+    const-string v1, "Seed3HD"
+    const-string v2, "Optional scene scaler unavailable; using original renderer"
+    invoke-static {v1, v2, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    :scene_hd_loaded
+
+
     .line 120
     sput-boolean v3, Lch/kingdoms/kor/KingdomsActivity;->isFirst:Z
 

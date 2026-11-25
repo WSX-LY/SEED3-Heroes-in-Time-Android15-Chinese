@@ -1,0 +1,6392 @@
+[
+  {
+    "source": "decoded/res/drawable-mdpi-v4/activeskill_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/activeskill_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      406,
+      168
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/activeskill_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/activeskill_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      95,
+      24
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/activeskilltab.png",
+    "output": "decoded/res/drawable-320dpi-v4/activeskilltab.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      406,
+      32
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/allocationdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/allocationdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/allocationup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/allocationup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/alram_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/alram_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      427,
+      27
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/aquickslots.png",
+    "output": "decoded/res/drawable-320dpi-v4/aquickslots.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      356,
+      45
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/areamap_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/areamap_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      96,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/armour_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/armour_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      35,
+      12
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/askill_alarm.png",
+    "output": "decoded/res/drawable-320dpi-v4/askill_alarm.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      14,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/attack__0.png",
+    "output": "decoded/res/drawable-320dpi-v4/attack__0.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      53,
+      53
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/autorouting_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/autorouting_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/back_down_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/back_down_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      36,
+      36
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/back_up_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/back_up_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      36,
+      36
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/backdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/backdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      36,
+      36
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/backup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/backup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      36,
+      36
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/blacksmith_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/blacksmith_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      298,
+      240
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/boots_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/boots_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      35,
+      12
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/box_0_ui.png",
+    "output": "decoded/res/drawable-320dpi-v4/box_0_ui.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      241,
+      252
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bquickslots.png",
+    "output": "decoded/res/drawable-320dpi-v4/bquickslots.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      356,
+      45
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/branddown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/branddown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      118,
+      74
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/brandshop_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/brandshop_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      121,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/brandup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/brandup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      118,
+      74
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_bling01.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_bling01.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_bling02.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_bling02.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_bling03.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_bling03.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_bling04.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_bling04.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_bling05.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_bling05.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_bling06.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_bling06.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_bling07.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_bling07.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_bling08.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_bling08.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_bling09.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_bling09.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_bling10.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_bling10.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_bling11.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_bling11.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_fail01.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_fail01.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_fail02.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_fail02.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_fail03.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_fail03.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_fail04.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_fail04.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_fail05.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_fail05.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_fail06.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_fail06.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_fail07.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_fail07.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_fail08.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_fail08.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_fail09.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_fail09.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_fail10.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_fail10.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_fail11.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_fail11.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_fail12.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_fail12.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_fail13.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_fail13.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_loading01.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_loading01.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_loading02.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_loading02.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_loading03.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_loading03.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_loading04.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_loading04.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_loading05.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_loading05.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_loading06.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_loading06.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_loading07.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_loading07.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_loading08.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_loading08.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_loading09.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_loading09.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_loading10.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_loading10.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_loading11.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_loading11.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_loading12.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_loading12.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_success01.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_success01.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_success02.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_success02.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_success03.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_success03.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_success04.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_success04.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bs_success05.png",
+    "output": "decoded/res/drawable-320dpi-v4/bs_success05.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      79
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/bskill_alarm.png",
+    "output": "decoded/res/drawable-320dpi-v4/bskill_alarm.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      14,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/buff_agi.png",
+    "output": "decoded/res/drawable-320dpi-v4/buff_agi.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      14,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/buff_atk.png",
+    "output": "decoded/res/drawable-320dpi-v4/buff_atk.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      14,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/buff_atr.png",
+    "output": "decoded/res/drawable-320dpi-v4/buff_atr.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      14,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/buff_crazy.png",
+    "output": "decoded/res/drawable-320dpi-v4/buff_crazy.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      14,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/buff_crt.png",
+    "output": "decoded/res/drawable-320dpi-v4/buff_crt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      14,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/buff_def.png",
+    "output": "decoded/res/drawable-320dpi-v4/buff_def.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      14,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/buffskill_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/buffskill_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      406,
+      168
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/buffskill_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/buffskill_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      95,
+      24
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/buffskilltab.png",
+    "output": "decoded/res/drawable-320dpi-v4/buffskilltab.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      406,
+      32
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/buydown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/buydown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/buypoint_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/buypoint_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      256,
+      220
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/buypoint_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/buypoint_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/buypoint_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/buypoint_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      101,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/buyup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/buyup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/cancel_down_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/cancel_down_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/cancel_up_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/cancel_up_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/caption_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/caption_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      480,
+      78
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/carl_01.png",
+    "output": "decoded/res/drawable-320dpi-v4/carl_01.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      50,
+      49
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/carl_02.png",
+    "output": "decoded/res/drawable-320dpi-v4/carl_02.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      50,
+      49
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/cash_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/cash_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      92,
+      26
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/cash_icon.png",
+    "output": "decoded/res/drawable-320dpi-v4/cash_icon.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      10,
+      10
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/category_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/category_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      248,
+      136
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/class_archer_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/class_archer_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      80,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/class_knight_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/class_knight_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      80,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/class_warrior_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/class_warrior_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      80,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/class_wizard_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/class_wizard_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      80,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/clear_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/clear_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      117,
+      29
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/close_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/close_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      36,
+      36
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/colo_num0.png",
+    "output": "decoded/res/drawable-320dpi-v4/colo_num0.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      43
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/colo_num1.png",
+    "output": "decoded/res/drawable-320dpi-v4/colo_num1.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      43
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/colo_num2.png",
+    "output": "decoded/res/drawable-320dpi-v4/colo_num2.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      43
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/colo_num3.png",
+    "output": "decoded/res/drawable-320dpi-v4/colo_num3.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      43
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/colo_num4.png",
+    "output": "decoded/res/drawable-320dpi-v4/colo_num4.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      43
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/colo_num5.png",
+    "output": "decoded/res/drawable-320dpi-v4/colo_num5.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      43
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/colo_num6.png",
+    "output": "decoded/res/drawable-320dpi-v4/colo_num6.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      43
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/colo_num7.png",
+    "output": "decoded/res/drawable-320dpi-v4/colo_num7.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      43
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/colo_num8.png",
+    "output": "decoded/res/drawable-320dpi-v4/colo_num8.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      43
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/colo_num9.png",
+    "output": "decoded/res/drawable-320dpi-v4/colo_num9.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      43
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/colosseum_result.png",
+    "output": "decoded/res/drawable-320dpi-v4/colosseum_result.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      238,
+      170
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/compasition_with_cramer_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/compasition_with_cramer_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      235,
+      29
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/complete_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/complete_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      190,
+      29
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/cramer_cnt_bar.png",
+    "output": "decoded/res/drawable-320dpi-v4/cramer_cnt_bar.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      86,
+      8
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/deletedown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/deletedown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/deleteup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/deleteup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/depositdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/depositdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/depositup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/depositup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/direction_button_default.png",
+    "output": "decoded/res/drawable-320dpi-v4/direction_button_default.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      156,
+      156
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/direction_button_down.png",
+    "output": "decoded/res/drawable-320dpi-v4/direction_button_down.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      156,
+      156
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/direction_button_left.png",
+    "output": "decoded/res/drawable-320dpi-v4/direction_button_left.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      156,
+      156
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/direction_button_right.png",
+    "output": "decoded/res/drawable-320dpi-v4/direction_button_right.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      156,
+      156
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/direction_button_up.png",
+    "output": "decoded/res/drawable-320dpi-v4/direction_button_up.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      156,
+      156
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/dpad_exitdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/dpad_exitdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      69,
+      21
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/dpad_exitdup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/dpad_exitdup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      69,
+      21
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/dpad_menu_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/dpad_menu_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      221,
+      28
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/dpad_resetdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/dpad_resetdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      69,
+      21
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/dpad_resetup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/dpad_resetup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      69,
+      21
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/dpad_seekbar_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/dpad_seekbar_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      221,
+      35
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/dpad_thumb.png",
+    "output": "decoded/res/drawable-320dpi-v4/dpad_thumb.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      15,
+      31
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/empty_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/empty_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      40,
+      9
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/equip_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/equip_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      153,
+      180
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/equip_selected_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/equip_selected_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      66,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/equip_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/equip_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      20,
+      10
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/equip_unselected_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/equip_unselected_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      66,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/equipdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/equipdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/equipinfo_bottom_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/equipinfo_bottom_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      240,
+      45
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/equipinfo_top_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/equipinfo_top_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      240,
+      151
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/equipment_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/equipment_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      114,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/equipup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/equipup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/exp_bar.png",
+    "output": "decoded/res/drawable-320dpi-v4/exp_bar.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      142,
+      4
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/failure_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/failure_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      145,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/filteralldown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/filteralldown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      73,
+      27
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/filterallup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/filterallup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      73,
+      27
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/filterequipdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/filterequipdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      73,
+      27
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/filterequipup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/filterequipup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      73,
+      27
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/filteritemdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/filteritemdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      73,
+      27
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/filteritemup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/filteritemup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      73,
+      27
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/filterquestdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/filterquestdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      73,
+      27
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/filterquestup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/filterquestup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      73,
+      27
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/filterringdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/filterringdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      73,
+      27
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/filterringup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/filterringup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      73,
+      27
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gamemenu_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/gamemenu_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      428,
+      266
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gameover_txt0.png",
+    "output": "decoded/res/drawable-320dpi-v4/gameover_txt0.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      255,
+      45
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gameover_txt1.png",
+    "output": "decoded/res/drawable-320dpi-v4/gameover_txt1.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      255,
+      45
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gameover_txt10.png",
+    "output": "decoded/res/drawable-320dpi-v4/gameover_txt10.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      255,
+      45
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gameover_txt11.png",
+    "output": "decoded/res/drawable-320dpi-v4/gameover_txt11.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      255,
+      45
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gameover_txt2.png",
+    "output": "decoded/res/drawable-320dpi-v4/gameover_txt2.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      255,
+      45
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gameover_txt3.png",
+    "output": "decoded/res/drawable-320dpi-v4/gameover_txt3.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      255,
+      45
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gameover_txt4.png",
+    "output": "decoded/res/drawable-320dpi-v4/gameover_txt4.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      255,
+      45
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gameover_txt5.png",
+    "output": "decoded/res/drawable-320dpi-v4/gameover_txt5.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      255,
+      45
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gameover_txt6.png",
+    "output": "decoded/res/drawable-320dpi-v4/gameover_txt6.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      255,
+      45
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gameover_txt7.png",
+    "output": "decoded/res/drawable-320dpi-v4/gameover_txt7.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      255,
+      45
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gameover_txt8.png",
+    "output": "decoded/res/drawable-320dpi-v4/gameover_txt8.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      255,
+      45
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gameover_txt9.png",
+    "output": "decoded/res/drawable-320dpi-v4/gameover_txt9.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      255,
+      45
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gamespeed_seekbar_arrow.png",
+    "output": "decoded/res/drawable-320dpi-v4/gamespeed_seekbar_arrow.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      17,
+      29
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gamespeed_seekbar_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/gamespeed_seekbar_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      168,
+      21
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gamespeed_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/gamespeed_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/garbage_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/garbage_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      25,
+      25
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gatemenu_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/gatemenu_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      224,
+      252
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/getdropitemname_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/getdropitemname_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      220,
+      23
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/giveupdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/giveupdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/giveupup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/giveupup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/gloves_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/gloves_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      35,
+      12
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/hellmet_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/hellmet_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      35,
+      12
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/helpdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/helpdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      118,
+      74
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/helpup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/helpup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      118,
+      74
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/hero_cnt_bar.png",
+    "output": "decoded/res/drawable-320dpi-v4/hero_cnt_bar.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      86,
+      8
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/hero_exp.png",
+    "output": "decoded/res/drawable-320dpi-v4/hero_exp.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      172,
+      10
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/hero_face1.png",
+    "output": "decoded/res/drawable-320dpi-v4/hero_face1.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      50,
+      50
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/hero_hpmp.png",
+    "output": "decoded/res/drawable-320dpi-v4/hero_hpmp.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      166,
+      78
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/hp_bar.png",
+    "output": "decoded/res/drawable-320dpi-v4/hp_bar.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      98,
+      8
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/info_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/info_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      223,
+      219
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/info_bg_close_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/info_bg_close_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/info_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/info_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/invenclose_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/invenclose_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      43,
+      43
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/invenopen_btn.jpg",
+    "output": "decoded/res/drawable-320dpi-v4/invenopen_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      43,
+      43
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/inventory_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/inventory_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      99,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/item_selected_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/item_selected_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      66,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/item_unselected_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/item_unselected_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      66,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemdown_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemdown_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      37,
+      37
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_0.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_0.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_1.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_1.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_10.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_10.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_100.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_100.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_101.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_101.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_102.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_102.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_103.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_103.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_104.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_104.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_105.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_105.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_106.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_106.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_107.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_107.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_108.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_108.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_109.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_109.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_11.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_11.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_110.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_110.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_111.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_111.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_112.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_112.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_113.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_113.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_114.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_114.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_115.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_115.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_116.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_116.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_117.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_117.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_118.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_118.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_119.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_119.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_12.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_12.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_120.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_120.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_121.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_121.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_122.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_122.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_123.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_123.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_124.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_124.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_125.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_125.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_126.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_126.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_127.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_127.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_128.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_128.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_129.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_129.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_13.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_13.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_130.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_130.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_131.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_131.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_132.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_132.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_133.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_133.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_134.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_134.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_135.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_135.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_136.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_136.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_137.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_137.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_138.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_138.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_139.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_139.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_14.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_14.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_140.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_140.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_141.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_141.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_142.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_142.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_143.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_143.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_144.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_144.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_145.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_145.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_146.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_146.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_147.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_147.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_148.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_148.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_149.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_149.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_15.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_15.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_150.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_150.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_151.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_151.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_152.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_152.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_153.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_153.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_154.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_154.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_155.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_155.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_156.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_156.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_157.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_157.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_158.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_158.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_159.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_159.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_16.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_16.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_160.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_160.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_161.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_161.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_162.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_162.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_163.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_163.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_164.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_164.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_165.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_165.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_166.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_166.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_167.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_167.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_168.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_168.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_169.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_169.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_17.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_17.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_170.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_170.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_171.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_171.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_172.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_172.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_173.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_173.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_174.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_174.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_175.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_175.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_176.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_176.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_177.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_177.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_178.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_178.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_179.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_179.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_18.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_18.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_180.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_180.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_181.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_181.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_182.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_182.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_183.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_183.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_184.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_184.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_185.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_185.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_186.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_186.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_187.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_187.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_188.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_188.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_189.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_189.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_19.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_19.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_190.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_190.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_191.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_191.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_192.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_192.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_193.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_193.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_194.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_194.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_195.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_195.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_196.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_196.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_197.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_197.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_198.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_198.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_199.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_199.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_2.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_2.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_20.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_20.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_200.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_200.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_201.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_201.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_202.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_202.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_203.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_203.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_204.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_204.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_205.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_205.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_206.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_206.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_207.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_207.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_208.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_208.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_209.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_209.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_21.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_21.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_210.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_210.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_211.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_211.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_212.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_212.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_213.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_213.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_214.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_214.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_215.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_215.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_216.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_216.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_217.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_217.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_218.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_218.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_219.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_219.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_22.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_22.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_220.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_220.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_221.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_221.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_222.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_222.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_223.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_223.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_224.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_224.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_225.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_225.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_226.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_226.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_227.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_227.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_228.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_228.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_229.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_229.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_23.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_23.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_230.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_230.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_231.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_231.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_232.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_232.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_233.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_233.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_234.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_234.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_235.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_235.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_236.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_236.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_237.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_237.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_238.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_238.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_239.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_239.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_24.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_24.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_240.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_240.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_241.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_241.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_242.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_242.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_243.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_243.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_244.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_244.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_245.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_245.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_246.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_246.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_247.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_247.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_248.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_248.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_249.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_249.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_25.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_25.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_250.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_250.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_251.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_251.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_252.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_252.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_253.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_253.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_254.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_254.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_255.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_255.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_256.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_256.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_257.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_257.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_258.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_258.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_259.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_259.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_26.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_26.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_260.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_260.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_261.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_261.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_262.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_262.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_263.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_263.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_264.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_264.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_265.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_265.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_266.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_266.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_267.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_267.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_268.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_268.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_27.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_27.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_28.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_28.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_29.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_29.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_3.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_3.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_30.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_30.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_31.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_31.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_32.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_32.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_33.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_33.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_34.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_34.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_35.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_35.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_36.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_36.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_37.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_37.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_38.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_38.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_39.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_39.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_4.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_4.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_40.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_40.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_41.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_41.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_42.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_42.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_43.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_43.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_44.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_44.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_45.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_45.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_46.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_46.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_47.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_47.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_48.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_48.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_49.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_49.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_5.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_5.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_50.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_50.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_51.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_51.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_52.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_52.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_53.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_53.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_54.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_54.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_55.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_55.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_56.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_56.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_57.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_57.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_58.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_58.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_59.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_59.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_6.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_6.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_60.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_60.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_61.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_61.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_62.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_62.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_63.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_63.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_64.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_64.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_65.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_65.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_66.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_66.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_67.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_67.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_68.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_68.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_69.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_69.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_7.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_7.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_70.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_70.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_71.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_71.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_72.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_72.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_73.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_73.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_74.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_74.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_75.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_75.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_76.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_76.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_77.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_77.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_78.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_78.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_79.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_79.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_8.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_8.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_80.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_80.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_81.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_81.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_82.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_82.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_83.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_83.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_84.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_84.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_85.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_85.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_86.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_86.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_87.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_87.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_88.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_88.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_89.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_89.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_9.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_9.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_90.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_90.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_91.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_91.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_92.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_92.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_93.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_93.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_94.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_94.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_95.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_95.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_96.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_96.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_97.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_97.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_98.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_98.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemimg_99.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemimg_99.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/itemup_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/itemup_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      37,
+      37
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/left_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/left_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      32,
+      46
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/level_clear_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/level_clear_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      234,
+      29
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/level_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/level_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      111,
+      31
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/line.png",
+    "output": "decoded/res/drawable-320dpi-v4/line.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      350,
+      10
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/longdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/longdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      153,
+      16
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/longup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/longup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      153,
+      16
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/main_quest_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/main_quest_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      177,
+      32
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/main_quest_select_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/main_quest_select_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      177,
+      32
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/main_quest_title.png",
+    "output": "decoded/res/drawable-320dpi-v4/main_quest_title.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      177,
+      32
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/mainmenudown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/mainmenudown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      118,
+      74
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/mainmenuup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/mainmenuup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      118,
+      74
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/mapname_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/mapname_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      284,
+      23
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/medium_down_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/medium_down_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      106,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/medium_up_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/medium_up_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      106,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/mix_items_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/mix_items_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      174,
+      117
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/mon_hp.png",
+    "output": "decoded/res/drawable-320dpi-v4/mon_hp.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      158,
+      43
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/money_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/money_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      92,
+      26
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/money_icon.png",
+    "output": "decoded/res/drawable-320dpi-v4/money_icon.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      10,
+      10
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/mp_bar.png",
+    "output": "decoded/res/drawable-320dpi-v4/mp_bar.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      98,
+      8
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/network_popup.png",
+    "output": "decoded/res/drawable-320dpi-v4/network_popup.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      298,
+      220
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/network_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/network_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      92,
+      18
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/networkdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/networkdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      118,
+      74
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/networkup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/networkup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      118,
+      74
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/nodown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/nodown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/noup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/noup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/num_item_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/num_item_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      22,
+      16
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/ok_down_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/ok_down_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/ok_up_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/ok_up_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/okdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/okdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      62,
+      62
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/okup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/okup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      62,
+      62
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/option_off_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/option_off_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      168,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/option_on_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/option_on_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      168,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/padcustomize_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/padcustomize_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      480,
+      320
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/padcustomize_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/padcustomize_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      27
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/padcutomize_down_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/padcutomize_down_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      168,
+      27
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/padcutomize_up_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/padcutomize_up_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      168,
+      27
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/popup.png",
+    "output": "decoded/res/drawable-320dpi-v4/popup.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      326,
+      143
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/popup_big_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/popup_big_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      297,
+      201
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/popup_blacksmith_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/popup_blacksmith_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      297,
+      201
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/popup_ok_big.png",
+    "output": "decoded/res/drawable-320dpi-v4/popup_ok_big.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      326,
+      164
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/popup_ok_xbig.png",
+    "output": "decoded/res/drawable-320dpi-v4/popup_ok_xbig.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      326,
+      240
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/popup_store_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/popup_store_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      289,
+      136
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/popup_xbig_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/popup_xbig_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      399,
+      193
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/power_items.png",
+    "output": "decoded/res/drawable-320dpi-v4/power_items.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      174,
+      100
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/prision_break_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/prision_break_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      222,
+      25
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/prision_break_time_bar.png",
+    "output": "decoded/res/drawable-320dpi-v4/prision_break_time_bar.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      165,
+      8
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/quest_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/quest_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/quest_selected_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/quest_selected_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      66,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/quest_title.png",
+    "output": "decoded/res/drawable-320dpi-v4/quest_title.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      90,
+      26
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/quest_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/quest_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      63,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/quest_txt_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/quest_txt_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      177,
+      117
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/quest_unselected_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/quest_unselected_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      66,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/quick_pop_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/quick_pop_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      418,
+      164
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/quickslot_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/quickslot_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      42,
+      42
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/quickslotdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/quickslotdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/quickslotup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/quickslotup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/race_bar.png",
+    "output": "decoded/res/drawable-320dpi-v4/race_bar.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      161,
+      16
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/race_bar_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/race_bar_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      183,
+      40
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/race_left_down_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/race_left_down_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      96,
+      96
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/race_left_up_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/race_left_up_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      96,
+      96
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/race_ok_down_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/race_ok_down_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      96,
+      96
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/race_ok_up_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/race_ok_up_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      96,
+      96
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/race_right_down_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/race_right_down_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      96,
+      96
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/race_right_up_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/race_right_up_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      96,
+      96
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/rank.png",
+    "output": "decoded/res/drawable-320dpi-v4/rank.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      48,
+      48
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/rank_all.png",
+    "output": "decoded/res/drawable-320dpi-v4/rank_all.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      45,
+      53
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/rank_mark.png",
+    "output": "decoded/res/drawable-320dpi-v4/rank_mark.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      210,
+      117
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/rank_violence.png",
+    "output": "decoded/res/drawable-320dpi-v4/rank_violence.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      45,
+      52
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/resulttxt_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/resulttxt_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      125,
+      21
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/retrivedown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/retrivedown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/retriveup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/retriveup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/right_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/right_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      32,
+      46
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/ring_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/ring_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      35,
+      12
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/save_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/save_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/save_slot_empty_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/save_slot_empty_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      59,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/savedown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/savedown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      118,
+      74
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/saveslot_down.png",
+    "output": "decoded/res/drawable-320dpi-v4/saveslot_down.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      91,
+      154
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/saveslot_up.png",
+    "output": "decoded/res/drawable-320dpi-v4/saveslot_up.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      91,
+      154
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/saveup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/saveup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      118,
+      74
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/select_job_bottom.png",
+    "output": "decoded/res/drawable-320dpi-v4/select_job_bottom.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      321,
+      101
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/select_job_center.png",
+    "output": "decoded/res/drawable-320dpi-v4/select_job_center.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      321,
+      116
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/select_job_top.png",
+    "output": "decoded/res/drawable-320dpi-v4/select_job_top.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      321,
+      34
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/selldown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/selldown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sellup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/sellup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/settingsdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/settingsdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      118,
+      74
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/settingsup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/settingsup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      118,
+      74
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/shop_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/shop_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      53,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_0.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_0.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_1.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_1.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_10.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_10.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_11.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_11.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_12.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_12.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_13.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_13.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_14.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_14.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_15.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_15.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_16.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_16.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_17.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_17.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_18.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_18.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_19.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_19.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_2.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_2.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_20.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_20.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_21.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_21.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_22.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_22.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_23.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_23.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_24.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_24.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_25.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_25.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_26.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_26.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_27.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_27.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_28.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_28.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_29.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_29.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_3.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_3.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_30.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_30.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_31.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_31.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_4.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_4.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_5.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_5.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_6.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_6.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_7.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_7.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_8.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_8.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sicon_9.png",
+    "output": "decoded/res/drawable-320dpi-v4/sicon_9.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      38,
+      38
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/skill_bar.png",
+    "output": "decoded/res/drawable-320dpi-v4/skill_bar.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      177,
+      42
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/skill_bar_unselect.png",
+    "output": "decoded/res/drawable-320dpi-v4/skill_bar_unselect.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      177,
+      42
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/skill_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/skill_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      34,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/skill_selected_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/skill_selected_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      66,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/skill_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/skill_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      41,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/skill_unselected_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/skill_unselected_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      66,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/skip_btn01.png",
+    "output": "decoded/res/drawable-320dpi-v4/skip_btn01.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      84,
+      42
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/skip_btn02.png",
+    "output": "decoded/res/drawable-320dpi-v4/skip_btn02.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      84,
+      42
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/slot_a_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/slot_a_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      42,
+      42
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/slot_b_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/slot_b_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      42,
+      42
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/smeltdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/smeltdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      86,
+      66
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/smeltup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/smeltup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      86,
+      66
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/socket_blue.png",
+    "output": "decoded/res/drawable-320dpi-v4/socket_blue.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      7,
+      10
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/socket_default.png",
+    "output": "decoded/res/drawable-320dpi-v4/socket_default.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      7,
+      10
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/socket_green.png",
+    "output": "decoded/res/drawable-320dpi-v4/socket_green.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      7,
+      10
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/socket_navy.png",
+    "output": "decoded/res/drawable-320dpi-v4/socket_navy.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      7,
+      10
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/socket_orange.png",
+    "output": "decoded/res/drawable-320dpi-v4/socket_orange.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      7,
+      10
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/socket_purple.png",
+    "output": "decoded/res/drawable-320dpi-v4/socket_purple.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      7,
+      10
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/socket_red.png",
+    "output": "decoded/res/drawable-320dpi-v4/socket_red.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      7,
+      10
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/socket_white.png",
+    "output": "decoded/res/drawable-320dpi-v4/socket_white.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      7,
+      10
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/socket_yellow.png",
+    "output": "decoded/res/drawable-320dpi-v4/socket_yellow.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      7,
+      10
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sound_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/sound_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/start_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/start_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      149,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/stat_alarm.png",
+    "output": "decoded/res/drawable-320dpi-v4/stat_alarm.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      14,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/stat_disable_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/stat_disable_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      49,
+      40
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/stat_enable_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/stat_enable_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      49,
+      40
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/status_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/status_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      416,
+      205
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/status_bg2.png",
+    "output": "decoded/res/drawable-320dpi-v4/status_bg2.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      416,
+      211
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/status_info.png",
+    "output": "decoded/res/drawable-320dpi-v4/status_info.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      234,
+      101
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/status_info2.png",
+    "output": "decoded/res/drawable-320dpi-v4/status_info2.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      234,
+      88
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/status_selected_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/status_selected_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      66,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/status_stat.png",
+    "output": "decoded/res/drawable-320dpi-v4/status_stat.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      234,
+      105
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/status_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/status_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      69,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/status_unselected_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/status_unselected_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      66,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/storage_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/storage_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      83,
+      21
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/store_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/store_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      416,
+      205
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/storeinner_bottom_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/storeinner_bottom_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      394,
+      156
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/storeinner_top_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/storeinner_top_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      394,
+      26
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sub_quest_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/sub_quest_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      177,
+      32
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sub_quest_select_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/sub_quest_select_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      177,
+      32
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/sub_quest_title.png",
+    "output": "decoded/res/drawable-320dpi-v4/sub_quest_title.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      177,
+      32
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/subquest_title.png",
+    "output": "decoded/res/drawable-320dpi-v4/subquest_title.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      90,
+      26
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/system_selected_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/system_selected_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      66,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/system_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/system_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      79,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/system_unselected_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/system_unselected_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      66,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/time_score_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/time_score_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      221,
+      27
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/timebonus.png",
+    "output": "decoded/res/drawable-320dpi-v4/timebonus.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      58,
+      8
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/total_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/total_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      40,
+      9
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/tp_bar.png",
+    "output": "decoded/res/drawable-320dpi-v4/tp_bar.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      98,
+      8
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/usedown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/usedown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/useup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/useup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      14
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/vibration_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/vibration_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/warpgate_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/warpgate_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      111,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/warrior.png",
+    "output": "decoded/res/drawable-320dpi-v4/warrior.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      80,
+      22
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/weapon_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/weapon_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      35,
+      12
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/worldmap.png",
+    "output": "decoded/res/drawable-320dpi-v4/worldmap.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      287,
+      191
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/worldmap_bg.png",
+    "output": "decoded/res/drawable-320dpi-v4/worldmap_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      372,
+      266
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/worldmap_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/worldmap_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      30,
+      30
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/worldmap_flag.png",
+    "output": "decoded/res/drawable-320dpi-v4/worldmap_flag.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      18,
+      21
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/worldmap_hero.png",
+    "output": "decoded/res/drawable-320dpi-v4/worldmap_hero.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      21,
+      21
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/worldmap_select.png",
+    "output": "decoded/res/drawable-320dpi-v4/worldmap_select.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      29,
+      24
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/worldmap_txt.png",
+    "output": "decoded/res/drawable-320dpi-v4/worldmap_txt.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      106,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/yesdown_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/yesdown_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-mdpi-v4/yesup_btn.png",
+    "output": "decoded/res/drawable-320dpi-v4/yesup_btn.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      100,
+      20
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-hdpi-v4/banner_close.png",
+    "output": "decoded/res/drawable-480dpi-v4/banner_close.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      60,
+      60
+    ]
+  },
+  {
+    "source": "decoded/res/drawable-hdpi-v4/iap_bg.png",
+    "output": "decoded/res/drawable-480dpi-v4/iap_bg.png",
+    "scale": 2,
+    "algorithm": "xBRZ",
+    "original_size": [
+      800,
+      480
+    ]
+  }
+]

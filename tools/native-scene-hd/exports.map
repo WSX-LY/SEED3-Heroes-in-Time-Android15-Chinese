@@ -1,0 +1,1 @@
+{ global: JNI_OnLoad; Java_ch_kingdoms_ndk_SceneHdBridge_setEnabled; local: *; };

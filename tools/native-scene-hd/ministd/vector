@@ -1,0 +1,19 @@
+#pragma once
+#include <cstddef>
+extern "C" void* malloc(size_t); extern "C" void free(void*); extern "C" void* memcpy(void*,const void*,size_t); extern "C" void abort();
+namespace std {
+template<class T> class vector {
+ T*p=nullptr;size_t n=0,c=0;
+public:
+ vector()=default;
+ explicit vector(size_t size):n(size),c(size){p=(T*)malloc(size*sizeof(T));if(size&&!p)abort();for(size_t i=0;i<size;i++)p[i]=T();}
+ vector(vector&&o):p(o.p),n(o.n),c(o.c){o.p=nullptr;o.n=o.c=0;}
+ vector(const vector&)=delete;
+ ~vector(){free(p);}
+ void reserve(size_t cap){if(cap<=c)return;T*q=(T*)malloc(cap*sizeof(T));if(!q)abort();if(n)memcpy(q,p,n*sizeof(T));free(p);p=q;c=cap;}
+ void push_back(T v){if(n==c)reserve(c?c*2:16);p[n++]=v;}
+ T& operator[](size_t i){return p[i];} const T& operator[](size_t i)const{return p[i];}
+ T* data(){return p;} const T* data()const{return p;}
+ size_t size()const{return n;}
+};
+}

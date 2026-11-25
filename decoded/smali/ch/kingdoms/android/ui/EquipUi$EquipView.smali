@@ -494,7 +494,7 @@
 
     const v11, 0x7f02009f
 
-    invoke-static {v10, v11, v3}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;ILandroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
+    invoke-static {v10, v11, v3}, Lch/android/api/util/HdResources;->decodeResource(Landroid/content/res/Resources;ILandroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
 
     .line 255
     iget-object v10, p0, Lch/kingdoms/android/ui/EquipUi$EquipView;->LAYOUT:Lch/android/api/ui/ChRelativeLayout;
@@ -724,7 +724,7 @@
 
     const v2, 0x7f02009f
 
-    invoke-static {v1, v2, v0}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;ILandroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
+    invoke-static {v1, v2, v0}, Lch/android/api/util/HdResources;->decodeResource(Landroid/content/res/Resources;ILandroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
 
     .line 292
     iget v1, v0, Landroid/graphics/BitmapFactory$Options;->outWidth:I

@@ -2,7 +2,19 @@
 
 [English](README.en.md)
 
-为《种子3》（SEED3 / SEED 3 - Heroes in Time）提供 Android 15 兼容修复、界面排版调整与简体中文界面翻译。当前版本为 v0.11.0，对应实机测试安装包 SEED3-local-shop-v11.apk。
+为《种子3》（SEED3 / SEED 3 - Heroes in Time）提供 Android 15 兼容修复、界面排版调整与简体中文界面翻译。最新发布为 **v0.15.0 高清实验版**，安装包 `SEED3-scene-HD-experiment-v15.apk`。
+
+[下载最新 APK](https://github.com/WSX-LY/SEED3-Heroes-in-Time-Android15-Chinese/releases/download/v0.15.0/SEED3-scene-HD-experiment-v15.apk) · [Release 与校验文件](https://github.com/WSX-LY/SEED3-Heroes-in-Time-Android15-Chinese/releases/tag/v0.15.0)
+
+## v0.15.0 更新
+
+- 新增 639 张 2× 操作界面素材、23 张 4× 悬浮人物立绘和表情，保留启动菜单 2× 资源。
+- 增加 xBRZ 4× 实时场景输出：512×256 → 2048×1024，独立 4× 场景贴图替换尚未完成。
+- 修正高清素材对装备页布局计算的影响，加入资源/动画解析工具、构建源码和运行时对比开关。
+- vivo V2170A / Android 15 已验证城镇、短距离移动、角色页及高清开关；战斗、全地图、持续发热和其他设备尚未验收。
+- 实机累计处理均值约 12ms、上传约 1ms；额外查找表和缓冲约 73MiB。这是实验版，保留旧版本 Release 供回退。
+
+![原效果（左）与实时4×（右）](docs/images/scene-hd-comparison.png)
 
 ## v0.11.0 更新
 
@@ -41,7 +53,7 @@
 ```powershell
 adb devices -l
 adb uninstall ch.kingdoms.market.compat
-adb install --no-incremental --bypass-low-target-sdk-block SEED3-local-shop-v11.apk
+adb install --no-incremental --bypass-low-target-sdk-block SEED3-scene-HD-experiment-v15.apk
 adb shell am start -n ch.kingdoms.market.compat/ch.kingdoms.kor.KingdomsActivity
 ```
 
@@ -68,8 +80,8 @@ adb shell am start -n ch.kingdoms.market.compat/ch.kingdoms.kor.KingdomsActivity
 ```powershell
 java -jar tools/apktool.jar b decoded -o unsigned.apk
 zipalign -f 4 unsigned.apk aligned.apk
-apksigner sign --ks YOUR_KEYSTORE --out SEED3-local-shop-v11.apk aligned.apk
-apksigner verify SEED3-local-shop-v11.apk
+apksigner sign --ks YOUR_KEYSTORE --out SEED3-scene-HD-experiment-v15.apk aligned.apk
+apksigner verify SEED3-scene-HD-experiment-v15.apk
 ```
 
 Apktool JAR、原始 APK、构建输出、日志和签名密钥已排除出 Git。可从 Apktool 官方发布页获取工具。
@@ -82,8 +94,22 @@ Apktool JAR、原始 APK、构建输出、日志和签名密钥已排除出 Git�
 
 ## 高清预览与后续计划
 
-当前源码包含 v12 的 18 张启动及主菜单 2× 高清资源，组合使用 Real-ESRGAN 与 xBRZ，并通过资源密度保持原有显示尺寸。已实机确认进入标题触屏页，主菜单按钮仍待逐项验收；正式 Release 仍为 v0.11.0。
+当前源码包含 v12 的 18 张启动及主菜单 2× 高清资源，组合使用 Real-ESRGAN 与 xBRZ，并通过资源密度保持原有显示尺寸。已实机确认进入标题触屏页，主菜单按钮仍待逐项验收；最新 Release 为 v0.15.0 高清实验版。
 
 启动至主菜单资源保持当前效果。后续其他资源采用背景、人物 4×，其余 2×，倍率以原始素材为准，保持布局与交互区域，并检查画质、内存和加载情况。
 
 `tools/upscale-menu.py` 和 `tools/scale-xbrz.mjs` 记录本次 2× 预览处理流程，含开发机路径，使用前须调整。依赖 Python/Pillow、Node.js、`@kayahr/xbrz`、`pngjs` 及 Real-ESRGAN ncnn-vulkan 的 `realesr-animevideov3` 模型；工具和模型不随仓库提交。
+
+### 操作界面高清预览 v14
+
+新增 639 张 2× 界面资源（xBRZ）和 23 张 4× 悬浮人物立绘及表情（Real-ESRGAN）。涵盖状态条、方向键、攻击/技能槽、菜单、背包/技能图标、面板和弹窗；地图与场景行走人物保持原样。启动及主菜单沿用 v12。保留源图，通过资源密度保持显示尺寸，并修正装备页按原始像素计算布局的问题。
+
+处理脚本及素材清单：`tools/upscale-ui.py`、`tools/upscale-ui-characters.py`、`tools/hd-ui-manifest.json`、`tools/hd-ui-characters-manifest.json`。工具依赖沿用前述环境；两份 Python 脚本支持 `--project` 与 `--work` 参数。
+
+v13 中间版已实机检查主操作界面与主要菜单；空背包、锁定技能状态下的检查不能覆盖所有内容。补齐立绘的 v14 已安装，实机确认主操作界面和角色页布局正常，4× 角色立绘显示完整，当前进程日志未检出崩溃或内存不足异常。其他 NPC 立绘、表情及全部物品详情尚未逐项验收。最新 Release 为 v0.15.0 高清实验版。
+
+### 场景实时 4× 实验 v15
+
+已在实机验证将旧引擎完成的 512×256 场景画布，经 xBRZ 4× 输出至 2048×1024，保留 v14 高清界面。此实验尚未接入独立 4× 人物/地图贴图。城镇的开关对比、短距离移动和角色页正常；当前平均处理约 12ms、上传约 1ms，额外缓存和查找表约 73 MiB。战斗、全地图和长期性能未验收。
+
+原生图片和动画解析器已加入工具目录。实验构建、源代码、设备限制及对比开关见 [技术说明](tools/native-scene-hd/README.md)。最新 Release 为 v0.15.0 高清实验版。

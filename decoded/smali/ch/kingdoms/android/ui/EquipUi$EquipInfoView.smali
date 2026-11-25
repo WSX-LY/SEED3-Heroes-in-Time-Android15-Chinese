@@ -177,7 +177,7 @@
 
     move-result-object v3
 
-    invoke-static {v3, v11, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;ILandroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
+    invoke-static {v3, v11, v1}, Lch/android/api/util/HdResources;->decodeResource(Landroid/content/res/Resources;ILandroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
 
     .line 425
     iget-object v3, p0, Lch/kingdoms/android/ui/EquipUi$EquipInfoView;->TOP_LAY_OUT:Lch/android/api/ui/ChRelativeLayout;

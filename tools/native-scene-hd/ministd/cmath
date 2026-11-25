@@ -1,0 +1,4 @@
+#pragma once
+extern "C" double sqrt(double);
+namespace std { inline double sqrt(double x){return ::sqrt(x);} }
+inline int abs(int v){return v<0?-v:v;}
