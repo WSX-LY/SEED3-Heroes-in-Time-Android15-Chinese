@@ -1,8 +1,8 @@
-# SEED3 - Heroes in Time（SEED 3）安卓15兼容修复与界面汉化
+# 种子3 SEED3 - Heroes in Time｜安卓15兼容修复与中文汉化
 
 [English](README.en.md)
 
-为 SEED3 - Heroes in Time（SEED 3）提供 Android 15 兼容修复、界面排版调整与简体中文界面翻译。当前版本为 v0.4.0，对应实机测试安装包 SEED3-zh-ui-v4.apk。
+为《种子3》（SEED3 / SEED 3 - Heroes in Time）提供 Android 15 兼容修复、界面排版调整与简体中文界面翻译。当前版本为 v0.4.0，对应实机测试安装包 SEED3-zh-ui-v4.apk。
 
 ## 已完成
 
@@ -14,6 +14,12 @@
 - 缩小技能列表文字，并设置技能详情文字的像素字号。
 - 翻译 62 项 Android 界面字符串、4 项保存提示和首个任务的标题与说明。
 - 增加 Seed3Diag 启动、菜单切换和图标资源诊断日志。
+
+## 游戏名称与搜索
+
+中文常用名称为“种子3”，英文名称为 SEED3 - Heroes in Time，也常写作 SEED 3。安装包标题画面显示 SEED III: Wheel of Fortune。项目提供安卓15兼容修复与部分简体中文界面汉化，汉化进度见下文。
+
+[中文名称参考](https://m.ali213.net/android/16165.html) · [英文名称参考](https://www.taptap.cn/app/41768)
 
 ## 下载与安装
 

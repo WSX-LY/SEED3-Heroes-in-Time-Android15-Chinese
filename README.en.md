@@ -1,4 +1,4 @@
-# SEED3 - Heroes in Time (SEED 3): Android 15 compatibility and Chinese UI localization
+# SEED3 - Heroes in Time (种子3 / SEED 3) — Android 15 compatibility and Chinese UI localization
 
 [简体中文](README.md)
 
@@ -14,6 +14,12 @@ Compatibility patches, layout fixes and ongoing Simplified Chinese UI localizati
 - Reduce skill list text and explicitly size skill detail text in pixels.
 - Translate 62 Android strings, four save messages, and the first quest title and instructions.
 - Add Seed3Diag startup, menu and resource lookup logs.
+
+## Game names
+
+The game is commonly listed in Chinese as 种子3 and in English as SEED3 - Heroes in Time or SEED 3. The supplied APK title screen reads SEED III: Wheel of Fortune. This project provides Android 15 compatibility fixes and partial Simplified Chinese UI localization.
+
+[Chinese listing](https://m.ali213.net/android/16165.html) · [English listing](https://www.taptap.cn/app/41768)
 
 ## Download and installation
 
