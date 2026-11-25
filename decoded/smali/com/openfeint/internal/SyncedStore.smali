@@ -790,7 +790,7 @@
     .local v11, "packageManager":Landroid/content/pm/PackageManager;
     const/4 v15, 0x0
 
-    invoke-virtual {v11, v15}, Landroid/content/pm/PackageManager;->getInstalledApplications(I)Ljava/util/List;
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v2
 
@@ -1149,7 +1149,7 @@
 
     const-string v5, "of_prefs"
 
-    const/4 v6, 0x1
+    const/4 v6, 0x0
 
     invoke-virtual {v4, v5, v6}, Landroid/content/Context;->openFileOutput(Ljava/lang/String;I)Ljava/io/FileOutputStream;
 

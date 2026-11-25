@@ -1062,7 +1062,7 @@
 
     .line 824
     .local v3, "manager":Landroid/content/pm/PackageManager;
-    invoke-virtual {v3, v9}, Landroid/content/pm/PackageManager;->getInstalledApplications(I)Ljava/util/List;
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v2
 

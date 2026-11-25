@@ -82,9 +82,7 @@
 
     check-cast v2, Landroid/telephony/TelephonyManager;
 
-    invoke-virtual {v2}, Landroid/telephony/TelephonyManager;->getLine1Number()Ljava/lang/String;
-
-    move-result-object v2
+    const-string v2, ""
 
     iput-object v2, p0, Lch/kingdoms/android/ui/NetworkUi;->PHONE_NUMBER:Ljava/lang/String;
 

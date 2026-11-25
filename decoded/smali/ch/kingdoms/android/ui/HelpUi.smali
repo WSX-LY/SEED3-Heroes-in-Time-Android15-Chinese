@@ -1275,7 +1275,7 @@
 
     int-to-float v1, v1
 
-    invoke-virtual {v0, v1}, Lch/android/api/ui/ChTextView;->setTextSize(F)V
+    invoke-static {v0, v1}, Lch/android/api/util/PixelText;->setSize(Landroid/widget/TextView;F)V
 
     .line 230
     sget-object v1, Lch/android/api/util/TextPaints;->TYPE_FACE_BOLD:Landroid/graphics/Typeface;
@@ -1357,7 +1357,7 @@
 
     int-to-float v1, v1
 
-    invoke-virtual {v0, v1}, Lch/android/api/ui/ChTextView;->setTextSize(F)V
+    invoke-static {v0, v1}, Lch/android/api/util/PixelText;->setSize(Landroid/widget/TextView;F)V
 
     .line 219
     sget-object v1, Lch/android/api/util/TextPaints;->TYPE_FACE_BOLD:Landroid/graphics/Typeface;

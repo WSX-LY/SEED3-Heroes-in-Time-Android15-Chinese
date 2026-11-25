@@ -68,7 +68,7 @@
     invoke-virtual {v10, v13}, Lch/android/api/ui/ChTextView;->setId(I)V
 
     .line 34
-    const/4 v13, 0x1
+    const/4 v13, 0x0
 
     invoke-static {}, Lch/android/api/util/TextPaints;->getBigSize()I
 
@@ -182,6 +182,7 @@
     move-object/from16 v0, p4
 
     invoke-virtual {v11, v0}, Lch/android/api/ui/ChTextView;->setText(Ljava/lang/CharSequence;)V
+
 
     .line 49
     const/4 v13, -0x1

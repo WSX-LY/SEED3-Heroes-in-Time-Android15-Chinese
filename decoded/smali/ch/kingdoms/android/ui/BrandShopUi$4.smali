@@ -54,11 +54,7 @@
 
     const/4 v2, 0x1
 
-    invoke-static {v0, v1, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
+    invoke-static {v0, v1}, Lch/android/api/ui/PurchaseNotice;->show(Landroid/app/Activity;Ljava/lang/String;)V
 
     .line 587
     :cond_0

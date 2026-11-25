@@ -44,3 +44,8 @@ adb shell am start -n ch.kingdoms.market.compat/ch.kingdoms.kor.KingdomsActivity
 ## v4 实机验收记录
 
 技能列表字号已由 16dp 对应画笔调整为 12dp 对应画笔。2026-11-24 截图确认 Lv.1、Lv.10、Lv.23 显示完整，无行内重叠。当前角色技能处于锁定状态，点击首项后详情区仍为空，详情区字号尚不能据此宣布验收通过。本次进程 24307 的日志未发现 Java 致命异常、JNI 致命错误或原生致命信号。截图保存在 C:\Users\Administrator\seed3-debug\skill-v4-review.png。
+
+
+## v11 当前验收版本
+
+2026-11-25，用户确认 SEED3-local-shop-v11.apk 验收无问题。当前目标版本为 API 28。包含去除应用列表扫描、电话标识读取、外链入口，Help/Option/商城文本汉化、本地购买，以及游戏自带 INFO 购买结果提示。说明正文恢复原字号。后续修改提示样式须复用游戏 INFO 面板，不能擅自换成系统 Toast 或地图短消息，也不要额外调整无关文字大小。本地解锁和点数记录会随卸载清除。

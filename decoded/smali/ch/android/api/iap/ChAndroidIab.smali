@@ -207,66 +207,61 @@
 .end method
 
 .method public static popUpPurchaseDlg(Ljava/lang/String;ZLjava/lang/String;ILch/android/lib/iab/ChOnPurchaseListener;)V
-    .locals 1
-    .param p0, "productId"    # Ljava/lang/String;
-    .param p1, "isManagedItem"    # Z
-    .param p2, "key"    # Ljava/lang/String;
-    .param p3, "value"    # I
-    .param p4, "opl"    # Lch/android/lib/iab/ChOnPurchaseListener;
-
-    .prologue
-    .line 42
-    new-instance v0, Lch/android/api/iap/Product;
-
-    invoke-direct {v0, p0, p1, p2, p3}, Lch/android/api/iap/Product;-><init>(Ljava/lang/String;ZLjava/lang/String;I)V
-
-    invoke-static {v0, p4}, Lch/android/api/iap/ChAndroidIab;->popUpPurchaseDlg(Lch/android/api/iap/Product;Lch/android/lib/iab/ChOnPurchaseListener;)V
-
-    .line 43
+    .locals 5
+    const/4 v4, 0x4
+    if-eqz p1, :points
+    sget-object v0, Lch/android/api/iap/ChAndroidIab;->sDba:Lch/kingdoms/android/db/DBAdapter;
+    const/4 v1, 0x1
+    invoke-virtual {v0, p2, v1}, Lch/kingdoms/android/db/DBAdapter;->setPurchase(Ljava/lang/String;Z)Z
+    move-result v0
+    if-eqz v0, :notify
+    const/4 v4, 0x0
+    goto :notify
+    :points
+    if-lez p3, :notify
+    invoke-static {}, Lch/kingdoms/ndk/NdkUiEventManager;->callNativeGetHeroInfo()Lch/kingdoms/ndk/data/HeroStatus;
+    move-result-object v0
+    if-eqz v0, :notify
+    invoke-virtual {v0}, Lch/kingdoms/ndk/data/HeroStatus;->getCashPoints()I
+    move-result v1
+    add-int v2, v1, p3
+    if-lt v2, v1, :notify
+    invoke-virtual {v0, v2}, Lch/kingdoms/ndk/data/HeroStatus;->setCashPoins(I)V
+    invoke-static {v0}, Lch/kingdoms/ndk/NdkUiEventManager;->callNativeCalHeroInfo(Lch/kingdoms/ndk/data/HeroStatus;)V
+    invoke-static {}, Lch/kingdoms/ndk/NdkUiEventManager;->saveGame()Z
+    move-result v2
+    if-eqz v2, :rollback
+    const/4 v4, 0x0
+    goto :notify
+    :rollback
+    invoke-virtual {v0, v1}, Lch/kingdoms/ndk/data/HeroStatus;->setCashPoins(I)V
+    invoke-static {v0}, Lch/kingdoms/ndk/NdkUiEventManager;->callNativeCalHeroInfo(Lch/kingdoms/ndk/data/HeroStatus;)V
+    :notify
+    if-eqz p4, :done
+    invoke-interface {p4, v4, p0, p3}, Lch/android/lib/iab/ChOnPurchaseListener;->onPurchased(ILjava/lang/String;I)V
+    :done
     return-void
 .end method
 
 .method public static restoreManagedItems(Lch/android/lib/iab/ChOnPurchaseListener;)V
-    .locals 2
-    .param p0, "opl"    # Lch/android/lib/iab/ChOnPurchaseListener;
-
-    .prologue
-    .line 46
-    sget-object v0, Lch/android/api/iap/ChAndroidIab;->sIab:Lch/android/lib/iab/ChInAppBilling;
-
-    invoke-virtual {v0}, Lch/android/lib/iab/ChInAppBilling;->checkBillingSupported()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    sget-boolean v0, Lch/android/api/iap/ChAndroidIab;->isRunBilling:Z
-
-    if-nez v0, :cond_0
-
-    .line 47
-    const/4 v0, 0x1
-
-    sput-boolean v0, Lch/android/api/iap/ChAndroidIab;->isRunBilling:Z
-
-    .line 48
-    sput-object p0, Lch/android/api/iap/ChAndroidIab;->sOpl:Lch/android/lib/iab/ChOnPurchaseListener;
-
-    .line 49
-    sget-object v0, Lch/android/api/iap/ChAndroidIab;->sIab:Lch/android/lib/iab/ChInAppBilling;
-
-    new-instance v1, Lch/android/api/iap/ChAndroidIab$1;
-
-    invoke-direct {v1}, Lch/android/api/iap/ChAndroidIab$1;-><init>()V
-
-    invoke-virtual {v0, v1}, Lch/android/lib/iab/ChInAppBilling;->restore(Lch/android/lib/iab/ChOnPurchaseListener;)Z
-
-    .line 69
-    const/4 v0, 0x0
-
-    sput-boolean v0, Lch/android/api/iap/ChAndroidIab;->isRunBilling:Z
-
-    .line 71
-    :cond_0
+    .locals 4
+    if-eqz p0, :done
+    sget-object v0, Lch/android/api/iap/ChAndroidIab;->sDba:Lch/kingdoms/android/db/DBAdapter;
+    const-string v1, "WARPGATE"
+    invoke-virtual {v0, v1}, Lch/kingdoms/android/db/DBAdapter;->isPurchased(Ljava/lang/String;)Z
+    move-result v1
+    const/4 v2, 0x0
+    const/4 v3, 0x1
+    if-eqz v1, :arena
+    const-string v1, "item_warpgate_unlock"
+    invoke-interface {p0, v2, v1, v3}, Lch/android/lib/iab/ChOnPurchaseListener;->onPurchased(ILjava/lang/String;I)V
+    :arena
+    const-string v1, "COLOSSEUM"
+    invoke-virtual {v0, v1}, Lch/kingdoms/android/db/DBAdapter;->isPurchased(Ljava/lang/String;)Z
+    move-result v1
+    if-eqz v1, :done
+    const-string v1, "item_colosseum_unlock"
+    invoke-interface {p0, v2, v1, v3}, Lch/android/lib/iab/ChOnPurchaseListener;->onPurchased(ILjava/lang/String;I)V
+    :done
     return-void
 .end method

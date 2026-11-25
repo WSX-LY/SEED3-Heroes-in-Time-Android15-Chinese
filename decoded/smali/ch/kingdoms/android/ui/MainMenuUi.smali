@@ -707,7 +707,7 @@
     .line 186
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v5, v9}, Lch/kingdoms/android/ui/MainMenuUi;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    # External link entry removed.
 
     .line 188
     new-instance v10, Landroid/widget/RelativeLayout$LayoutParams;
@@ -762,7 +762,7 @@
     .line 193
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v3, v10}, Lch/kingdoms/android/ui/MainMenuUi;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    # External link entry removed.
 
     .line 195
     new-instance v14, Lch/kingdoms/android/ui/MainMenuUi$2;
@@ -771,7 +771,7 @@
 
     invoke-direct {v14, v0}, Lch/kingdoms/android/ui/MainMenuUi$2;-><init>(Lch/kingdoms/android/ui/MainMenuUi;)V
 
-    invoke-virtual {v5, v14}, Lch/android/api/ui/ChImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    # External link listener removed.
 
     .line 203
     new-instance v14, Lch/kingdoms/android/ui/MainMenuUi$3;
@@ -780,7 +780,7 @@
 
     invoke-direct {v14, v0}, Lch/kingdoms/android/ui/MainMenuUi$3;-><init>(Lch/kingdoms/android/ui/MainMenuUi;)V
 
-    invoke-virtual {v3, v14}, Lch/android/api/ui/ChImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    # External link listener removed.
 
     .line 214
     move-object/from16 v0, p0

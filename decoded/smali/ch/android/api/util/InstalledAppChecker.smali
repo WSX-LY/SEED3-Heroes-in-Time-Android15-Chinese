@@ -98,7 +98,7 @@
     .local v4, "pm":Landroid/content/pm/PackageManager;
     const/4 v5, 0x0
 
-    invoke-virtual {v4, v5}, Landroid/content/pm/PackageManager;->getInstalledApplications(I)Ljava/util/List;
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v1
 
@@ -160,7 +160,7 @@
     .local v3, "pm":Landroid/content/pm/PackageManager;
     const/4 v5, 0x0
 
-    invoke-virtual {v3, v5}, Landroid/content/pm/PackageManager;->getInstalledApplications(I)Ljava/util/List;
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v1
 
@@ -241,7 +241,7 @@
     .local v3, "pm":Landroid/content/pm/PackageManager;
     const/4 v4, 0x0
 
-    invoke-virtual {v3, v4}, Landroid/content/pm/PackageManager;->getInstalledApplications(I)Ljava/util/List;
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
 
     move-result-object v0
 

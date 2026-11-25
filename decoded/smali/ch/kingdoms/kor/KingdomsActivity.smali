@@ -411,84 +411,9 @@
 
 # virtual methods
 .method public checkHacks([Ljava/lang/String;)Z
-    .locals 4
-    .param p1, "packageNames"    # [Ljava/lang/String;
-
-    .prologue
-    const/4 v1, 0x0
-
-    .line 264
-    invoke-static {p1}, Lch/android/api/util/InstalledAppChecker;->isExistAtLeastOne([Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_0
-
-    .line 265
-    sget-object v2, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    invoke-static {}, Lch/android/api/util/InstalledAppChecker;->toStringIntalledApps()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 266
-    sget-object v2, Ljava/lang/System;->err:Ljava/io/PrintStream;
-
-    invoke-static {p1}, Lch/android/api/util/InstalledAppChecker;->toStringExistedPackageNames([Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 267
-    new-instance v0, Landroid/app/AlertDialog$Builder;
-
-    invoke-direct {v0, p0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
-
-    .line 268
-    .local v0, "dialog":Landroid/app/AlertDialog$Builder;
-    invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setCancelable(Z)Landroid/app/AlertDialog$Builder;
-
-    .line 269
-    const v2, 0x7f05009e
-
-    invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
-
-    .line 270
-    const v2, 0x7f05009f
-
-    invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
-
-    .line 271
-    const v2, 0x7f05002f
-
-    new-instance v3, Lch/kingdoms/kor/KingdomsActivity$3;
-
-    invoke-direct {v3, p0}, Lch/kingdoms/kor/KingdomsActivity$3;-><init>(Lch/kingdoms/kor/KingdomsActivity;)V
-
-    invoke-virtual {v0, v2, v3}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
-
-    .line 277
-    new-instance v2, Lch/kingdoms/kor/KingdomsActivity$4;
-
-    invoke-direct {v2, p0}, Lch/kingdoms/kor/KingdomsActivity$4;-><init>(Lch/kingdoms/kor/KingdomsActivity;)V
-
-    invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setOnKeyListener(Landroid/content/DialogInterface$OnKeyListener;)Landroid/app/AlertDialog$Builder;
-
-    .line 284
-    invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
-
-    .line 287
-    .end local v0    # "dialog":Landroid/app/AlertDialog$Builder;
-    :goto_0
-    return v1
-
-    :cond_0
-    const/4 v1, 0x1
-
-    goto :goto_0
+    .locals 1
+    const/4 v0, 0x1
+    return v0
 .end method
 
 .method public hideDpad()V
@@ -588,9 +513,7 @@
     if-eqz v7, :cond_1
 
     .line 300
-    invoke-virtual {v7}, Landroid/telephony/TelephonyManager;->getLine1Number()Ljava/lang/String;
-
-    move-result-object v0
+    const-string v0, ""
 
     iput-object v0, p0, Lch/kingdoms/kor/KingdomsActivity;->line1Number:Ljava/lang/String;
 
@@ -2461,121 +2384,6 @@
 .end method
 
 .method public updateHackApps()V
-    .locals 12
-
-    .prologue
-    .line 207
-    invoke-virtual {p0}, Lch/kingdoms/kor/KingdomsActivity;->getApplicationContext()Landroid/content/Context;
-
-    move-result-object v8
-
-    invoke-static {v8}, Lch/kingdoms/android/db/DBAdapter;->getInstance(Landroid/content/Context;)Lch/kingdoms/android/db/DBAdapter;
-
-    move-result-object v3
-
-    .line 208
-    .local v3, "dba":Lch/kingdoms/android/db/DBAdapter;
-    const-string v8, "memoryhackapps"
-
-    invoke-virtual {v3, v8}, Lch/kingdoms/android/db/DBAdapter;->getData(Ljava/lang/String;)[B
-
-    move-result-object v2
-
-    .line 209
-    .local v2, "dataBytes":[B
-    const/4 v5, 0x0
-
-    .line 210
-    .local v5, "isNeedMhaListUpdate":Z
-    if-eqz v2, :cond_2
-
-    .line 211
-    new-instance v4, Lcom/google/gson/Gson;
-
-    invoke-direct {v4}, Lcom/google/gson/Gson;-><init>()V
-
-    .line 212
-    .local v4, "gson":Lcom/google/gson/Gson;
-    new-instance v8, Ljava/lang/String;
-
-    invoke-direct {v8, v2}, Ljava/lang/String;-><init>([B)V
-
-    const-class v9, Lch/lib/gsonobjects/MemoryHackApplications;
-
-    invoke-virtual {v4, v8, v9}, Lcom/google/gson/Gson;->fromJson(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
-
-    move-result-object v7
-
-    check-cast v7, Lch/lib/gsonobjects/MemoryHackApplications;
-
-    .line 214
-    .local v7, "mhas":Lch/lib/gsonobjects/MemoryHackApplications;
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    move-result-wide v0
-
-    .line 217
-    .local v0, "current":J
-    if-eqz v7, :cond_0
-
-    iget-wide v8, v7, Lch/lib/gsonobjects/MemoryHackApplications;->timeMills:J
-
-    sub-long v8, v0, v8
-
-    const-wide/32 v10, 0x240c8400
-
-    cmp-long v8, v8, v10
-
-    if-lez v8, :cond_0
-
-    .line 218
-    const/4 v5, 0x1
-
-    .line 224
-    .end local v0    # "current":J
-    .end local v4    # "gson":Lcom/google/gson/Gson;
-    .end local v7    # "mhas":Lch/lib/gsonobjects/MemoryHackApplications;
-    :cond_0
-    :goto_0
-    if-eqz v5, :cond_1
-
-    .line 226
-    const-string v8, "KD"
-
-    const-string v9, "need memory hack app list"
-
-    invoke-static {v8, v9}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 227
-    new-instance v6, Lch/android/api/pipelinethread/PipelineThread;
-
-    new-instance v8, Lch/kingdoms/kor/KingdomsActivity$1;
-
-    invoke-direct {v8, p0, v3}, Lch/kingdoms/kor/KingdomsActivity$1;-><init>(Lch/kingdoms/kor/KingdomsActivity;Lch/kingdoms/android/db/DBAdapter;)V
-
-    invoke-direct {v6, v8}, Lch/android/api/pipelinethread/PipelineThread;-><init>(Lch/android/api/pipelinethread/MessageHandlable;)V
-
-    .line 251
-    .local v6, "memoryHackCheckingThread":Lch/android/api/pipelinethread/PipelineThread;
-    invoke-virtual {v6}, Lch/android/api/pipelinethread/PipelineThread;->start()V
-
-    .line 252
-    iget-object v8, p0, Lch/kingdoms/kor/KingdomsActivity;->m_handler:Landroid/os/Handler;
-
-    new-instance v9, Lch/kingdoms/kor/KingdomsActivity$2;
-
-    invoke-direct {v9, p0, v6}, Lch/kingdoms/kor/KingdomsActivity$2;-><init>(Lch/kingdoms/kor/KingdomsActivity;Lch/android/api/pipelinethread/PipelineThread;)V
-
-    invoke-virtual {v8, v9}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
-
-    .line 261
-    .end local v6    # "memoryHackCheckingThread":Lch/android/api/pipelinethread/PipelineThread;
-    :cond_1
+    .locals 0
     return-void
-
-    .line 221
-    :cond_2
-    const/4 v5, 0x1
-
-    goto :goto_0
 .end method

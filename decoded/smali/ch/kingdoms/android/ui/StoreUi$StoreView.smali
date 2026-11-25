@@ -243,7 +243,7 @@
 
     int-to-float v7, v7
 
-    invoke-virtual {v6, v7}, Lch/android/api/ui/ChTextView;->setTextSize(F)V
+    invoke-static {v6, v7}, Lch/android/api/util/PixelText;->setSize(Landroid/widget/TextView;F)V
 
     .line 244
     iget-object v6, p0, Lch/kingdoms/android/ui/StoreUi$StoreView;->MONEY_VIEW:Lch/android/api/ui/ChTextView;

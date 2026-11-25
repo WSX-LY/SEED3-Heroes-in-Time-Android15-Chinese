@@ -2,7 +2,18 @@
 
 [简体中文](README.md)
 
-Compatibility patches, layout fixes and ongoing Simplified Chinese UI localization for SEED3 - Heroes in Time (SEED 3). Version v0.4.0 corresponds to the tested SEED3-zh-ui-v4.apk build.
+Compatibility patches, layout fixes and ongoing Simplified Chinese UI localization for SEED3 - Heroes in Time (SEED 3). Version v0.11.0 corresponds to the tested SEED3-local-shop-v11.apk build.
+
+## v0.11.0 changes
+
+- Target Android API 28 and adapt legacy HTTP, private cache files and explicit billing-service binding.
+- Remove installed-app enumeration, the legacy memory-tool check and phone identifier reads.
+- Remove Facebook and OpenFeint title-screen links.
+- Expand Chinese text for Help, Option, the shop and secondary dialogs, with font fixes.
+- Replace real-payment entry points with free local claims. Unlock flags and points are stored locally. Restore reads local records. Uninstallation removes local data.
+- Use the original in-game INFO/confirmation panel for purchase feedback and restore the description font size. The user accepted the v11 build on 2026-11-25.
+
+Local records do not restore historical server-side purchases. Full regression testing across all items and gameplay remains outstanding.
 
 ## Changes
 
@@ -30,7 +41,7 @@ On the tested phone, replacing an installed build failed. Uninstall the previous
 ```powershell
 adb devices -l
 adb uninstall ch.kingdoms.market.compat
-adb install --no-incremental --bypass-low-target-sdk-block SEED3-zh-ui-v4.apk
+adb install --no-incremental --bypass-low-target-sdk-block SEED3-local-shop-v11.apk
 adb shell am start -n ch.kingdoms.market.compat/ch.kingdoms.kor.KingdomsActivity
 ```
 
@@ -51,8 +62,8 @@ Use Java, Apktool 2.12.1 and Android SDK Build Tools. Build from an ASCII-only p
 ```powershell
 java -jar tools/apktool.jar b decoded -o unsigned.apk
 zipalign -f 4 unsigned.apk aligned.apk
-apksigner sign --ks YOUR_KEYSTORE --out SEED3-zh-ui-v4.apk aligned.apk
-apksigner verify SEED3-zh-ui-v4.apk
+apksigner sign --ks YOUR_KEYSTORE --out SEED3-local-shop-v11.apk aligned.apk
+apksigner verify SEED3-local-shop-v11.apk
 ```
 
 Tool binaries, original APKs, build outputs, logs and signing keys are excluded from Git. Obtain Apktool from its official releases.

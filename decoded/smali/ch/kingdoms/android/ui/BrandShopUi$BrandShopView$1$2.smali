@@ -146,11 +146,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3, v5}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Landroid/widget/Toast;->show()V
+    invoke-static {v2, v3}, Lch/android/api/ui/PurchaseNotice;->show(Landroid/app/Activity;Ljava/lang/String;)V
 
     .line 318
     .end local v0    # "cnt":I
@@ -184,11 +180,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3, v5}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Landroid/widget/Toast;->show()V
+    invoke-static {v2, v3}, Lch/android/api/ui/PurchaseNotice;->show(Landroid/app/Activity;Ljava/lang/String;)V
 
     goto :goto_0
 .end method

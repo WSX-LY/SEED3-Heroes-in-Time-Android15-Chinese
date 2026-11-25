@@ -2,7 +2,18 @@
 
 [English](README.en.md)
 
-为《种子3》（SEED3 / SEED 3 - Heroes in Time）提供 Android 15 兼容修复、界面排版调整与简体中文界面翻译。当前版本为 v0.4.0，对应实机测试安装包 SEED3-zh-ui-v4.apk。
+为《种子3》（SEED3 / SEED 3 - Heroes in Time）提供 Android 15 兼容修复、界面排版调整与简体中文界面翻译。当前版本为 v0.11.0，对应实机测试安装包 SEED3-local-shop-v11.apk。
+
+## v0.11.0 更新
+
+- 目标 Android API 提升至 28，补齐旧 HTTP 兼容库、私有缓存和明确服务绑定。
+- 移除已安装应用列表扫描及旧修改工具检测，去除手机号等电话标识读取。
+- 移除标题页 Facebook、OpenFeint 外链图标。
+- 补充 Help、Option 与商城及二级弹窗的中文文本，修正相关字号。
+- 原真实内购入口改为免费本地领取，解锁记录和点数写入本机数据。恢复购买读取本地记录。卸载会清除本地数据。
+- 购买提示使用游戏自带 INFO／确认框，说明正文恢复原字号。用户已于 2026-11-25 验收 v11 无问题。
+
+本地领取和解锁仅在本机生效，不能恢复原服务端购买记录。全流程和全部商品尚未完成回归测试。
 
 ## 已完成
 
@@ -30,7 +41,7 @@
 ```powershell
 adb devices -l
 adb uninstall ch.kingdoms.market.compat
-adb install --no-incremental --bypass-low-target-sdk-block SEED3-zh-ui-v4.apk
+adb install --no-incremental --bypass-low-target-sdk-block SEED3-local-shop-v11.apk
 adb shell am start -n ch.kingdoms.market.compat/ch.kingdoms.kor.KingdomsActivity
 ```
 
@@ -57,8 +68,8 @@ adb shell am start -n ch.kingdoms.market.compat/ch.kingdoms.kor.KingdomsActivity
 ```powershell
 java -jar tools/apktool.jar b decoded -o unsigned.apk
 zipalign -f 4 unsigned.apk aligned.apk
-apksigner sign --ks YOUR_KEYSTORE --out SEED3-zh-ui-v4.apk aligned.apk
-apksigner verify SEED3-zh-ui-v4.apk
+apksigner sign --ks YOUR_KEYSTORE --out SEED3-local-shop-v11.apk aligned.apk
+apksigner verify SEED3-local-shop-v11.apk
 ```
 
 Apktool JAR、原始 APK、构建输出、日志和签名密钥已排除出 Git。可从 Apktool 官方发布页获取工具。

@@ -52,9 +52,7 @@
     .line 142
     .local v1, "tManager":Landroid/telephony/TelephonyManager;
     :try_start_0
-    invoke-virtual {v1}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
-
-    move-result-object v4
+    const-string v4, ""
 
     iput-object v4, p0, Lcom/sponsorpay/sdk/android/HostInfo;->mUDID:Ljava/lang/String;
     :try_end_0
