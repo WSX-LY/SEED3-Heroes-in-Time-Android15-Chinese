@@ -1,8 +1,8 @@
-# SEED3 Android 15 兼容修复与界面汉化
+# SEED3 - Heroes in Time（SEED 3）安卓15兼容修复与界面汉化
 
 [English](README.en.md)
 
-为 SEED3 提供 Android 15 兼容修复、界面排版调整与简体中文界面翻译。当前版本为 v0.4.0，对应实机测试安装包 SEED3-zh-ui-v4.apk。
+为 SEED3 - Heroes in Time（SEED 3）提供 Android 15 兼容修复、界面排版调整与简体中文界面翻译。当前版本为 v0.4.0，对应实机测试安装包 SEED3-zh-ui-v4.apk。
 
 ## 已完成
 
@@ -60,4 +60,5 @@ Apktool JAR、原始 APK、构建输出、日志和签名密钥已排除出 Git�
 ## 权利说明
 
 本项目为第三方兼容性修复与翻译工作，非游戏官方版本。原游戏程序、素材、名称等权利归原权利人。仓库未对第三方游戏内容授予额外许可。
+
 

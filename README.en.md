@@ -1,8 +1,8 @@
-# SEED3 Android 15 compatibility and Chinese UI localization
+# SEED3 - Heroes in Time (SEED 3): Android 15 compatibility and Chinese UI localization
 
 [简体中文](README.md)
 
-Compatibility patches, layout fixes and ongoing Simplified Chinese UI localization for SEED3. Version v0.4.0 corresponds to the tested SEED3-zh-ui-v4.apk build.
+Compatibility patches, layout fixes and ongoing Simplified Chinese UI localization for SEED3 - Heroes in Time (SEED 3). Version v0.4.0 corresponds to the tested SEED3-zh-ui-v4.apk build.
 
 ## Changes
 
@@ -54,3 +54,4 @@ Tool binaries, original APKs, build outputs, logs and signing keys are excluded 
 ## Rights
 
 This is an unofficial compatibility and translation project. Original game code, artwork, names and other content remain the property of their respective rights holders. This repository grants no additional license to third-party game content.
+
