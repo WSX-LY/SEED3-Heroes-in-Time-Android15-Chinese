@@ -2,9 +2,17 @@
 
 [简体中文](README.md)
 
-Compatibility patches, layout fixes and ongoing Simplified Chinese UI localization for SEED3 - Heroes in Time (SEED 3). The latest release is **v0.15.0 HD experiment**, packaged as `SEED3-scene-HD-experiment-v15.apk`.
+Compatibility patches, layout fixes and ongoing Simplified Chinese UI localization for SEED3 - Heroes in Time (SEED 3). The latest release is **v0.18.1 HD experiment**, packaged as `SEED3-parallel-HD-v18-fix.apk`.
 
-[Download APK](https://github.com/WSX-LY/SEED3-Heroes-in-Time-Android15-Chinese/releases/download/v0.15.0/SEED3-scene-HD-experiment-v15.apk) · [Release and checksums](https://github.com/WSX-LY/SEED3-Heroes-in-Time-Android15-Chinese/releases/tag/v0.15.0)
+[Download APK](https://github.com/WSX-LY/SEED3-Heroes-in-Time-Android15-Chinese/releases/download/v0.18.1/SEED3-parallel-HD-v18-fix.apk) · [Release and checksums](https://github.com/WSX-LY/SEED3-Heroes-in-Time-Android15-Chinese/releases/tag/v0.18.1)
+
+## v0.18.1 timing and parallel experiment fix
+
+- Retain the user-accepted approximately 20Hz gameplay cadence with independent presentation scheduling. Character/camera interpolation is not implemented.
+- Add runtime logic-rate controls and logging. Add a four-way xBRZ experiment and explicitly initialize its shared lookup table to fix the New Game startup race.
+- The fixed build passed intro/town checks and its first parallel/serial pixel comparison. Current town presentation is approximately 46–52fps: **stable, smooth 60fps is not achieved**, and a parallel speedup has not been demonstrated.
+- Development experiment; older releases remain available. Uninstall before installing; uninstallation deletes local data.
+
 
 ## Static asset collaboration pack (2026-11-27)
 
@@ -24,7 +32,7 @@ The validator checks source hashes, task coverage, dimensions, scale, obvious tr
 
 **This is an offline asset pack and submission protocol. APK mapping consumption and independent native HD texture loading are not implemented.** Real-time scene xBRZ is separate. No new APK or release is published with this change. Original game asset rights remain with their owners.
 
-## v0.15.0 changes
+## v0.18.1 changes
 
 - Add 639 UI assets at 2× and 23 floating character illustration/expression assets at 4×; retain the 2× startup/menu assets.
 - Add real-time xBRZ 4× scene output, from 512×256 to 2048×1024. Independent 4× scene source textures are not yet integrated.
@@ -71,7 +79,7 @@ On the tested phone, replacing an installed build failed. Uninstall the previous
 ```powershell
 adb devices -l
 adb uninstall ch.kingdoms.market.compat
-adb install --no-incremental --bypass-low-target-sdk-block SEED3-scene-HD-experiment-v15.apk
+adb install --no-incremental --bypass-low-target-sdk-block SEED3-parallel-HD-v18-fix.apk
 adb shell am start -n ch.kingdoms.market.compat/ch.kingdoms.kor.KingdomsActivity
 ```
 
@@ -92,8 +100,8 @@ Use Java, Apktool 2.12.1 and Android SDK Build Tools. Build from an ASCII-only p
 ```powershell
 java -jar tools/apktool.jar b decoded -o unsigned.apk
 zipalign -f 4 unsigned.apk aligned.apk
-apksigner sign --ks YOUR_KEYSTORE --out SEED3-scene-HD-experiment-v15.apk aligned.apk
-apksigner verify SEED3-scene-HD-experiment-v15.apk
+apksigner sign --ks YOUR_KEYSTORE --out SEED3-parallel-HD-v18-fix.apk aligned.apk
+apksigner verify SEED3-parallel-HD-v18-fix.apk
 ```
 
 Tool binaries, original APKs, build outputs, logs and signing keys are excluded from Git. Obtain Apktool from its official releases.
@@ -105,7 +113,7 @@ This is an unofficial compatibility and translation project. Original game code,
 
 ## HD preview and next steps
 
-The source includes 18 startup and main-menu assets upscaled 2× for v12 using Real-ESRGAN and xBRZ. Resource density preserves their original display size. The title touch screen has been verified on the device; individual main-menu buttons still need review. The latest release is the v0.15.0 HD experiment.
+The source includes 18 startup and main-menu assets upscaled 2× for v12 using Real-ESRGAN and xBRZ. Resource density preserves their original display size. The title touch screen has been verified on the device; individual main-menu buttons still need review. The latest release is the v0.18.1 HD experiment.
 
 Keep the startup and main-menu assets as they are. Future work uses 4× for backgrounds and characters and 2× for other assets, measured from the original source. Preserve layout and touch areas, and check visual quality, memory use and loading.
 
@@ -117,10 +125,10 @@ Adds 639 UI assets at 2× (xBRZ) and 23 floating character illustration/expressi
 
 Scripts and manifests: `tools/upscale-ui.py`, `tools/upscale-ui-characters.py`, `tools/hd-ui-manifest.json`, `tools/hd-ui-characters-manifest.json`. Dependencies are listed above; both Python scripts accept `--project` and `--work` arguments.
 
-The intermediate v13 was checked on-device across the main controls and major menus. Empty inventory and locked skills limit coverage. v14 is installed. On-device checks confirmed the main controls and character page retain their layout and the 4× character illustration displays correctly. No crash or out-of-memory errors were found in the current process log. Other NPC illustrations, expressions and all item detail states have not been individually reviewed. The latest release is the v0.15.0 HD experiment.
+The intermediate v13 was checked on-device across the main controls and major menus. Empty inventory and locked skills limit coverage. v14 is installed. On-device checks confirmed the main controls and character page retain their layout and the 4× character illustration displays correctly. No crash or out-of-memory errors were found in the current process log. Other NPC illustrations, expressions and all item detail states have not been individually reviewed. The latest release is the v0.18.1 HD experiment.
 
 ### Real-time scene 4× experiment v15
 
 The completed 512×256 scene is upscaled using xBRZ to 2048×1024 at texture upload, retaining the v14 UI. Independent 4× character/map source textures are not yet integrated. Town A/B toggling, brief movement and the character page were checked. Cumulative filter/upload averages were about 12ms/1ms on the connected phone, with approximately 73 MiB for lookup/frame buffers. Combat, all maps and sustained performance remain untested.
 
-Native image and animation parsers are included. See the [technical notes](tools/native-scene-hd/README.md) for source, build instructions, device restrictions and the A/B toggle. The latest release is the v0.15.0 HD experiment.
+Native image and animation parsers are included. See the [technical notes](tools/native-scene-hd/README.md) for source, build instructions, device restrictions and the A/B toggle. The latest release is the v0.18.1 HD experiment.

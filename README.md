@@ -2,9 +2,17 @@
 
 [English](README.en.md)
 
-为《种子3》（SEED3 / SEED 3 - Heroes in Time）提供 Android 15 兼容修复、界面排版调整与简体中文界面翻译。最新发布为 **v0.15.0 高清实验版**，安装包 `SEED3-scene-HD-experiment-v15.apk`。
+为《种子3》（SEED3 / SEED 3 - Heroes in Time）提供 Android 15 兼容修复、界面排版调整与简体中文界面翻译。最新发布为 **v0.18.1 高清实验版**，安装包 `SEED3-parallel-HD-v18-fix.apk`。
 
-[下载最新 APK](https://github.com/WSX-LY/SEED3-Heroes-in-Time-Android15-Chinese/releases/download/v0.15.0/SEED3-scene-HD-experiment-v15.apk) · [Release 与校验文件](https://github.com/WSX-LY/SEED3-Heroes-in-Time-Android15-Chinese/releases/tag/v0.15.0)
+[下载最新 APK](https://github.com/WSX-LY/SEED3-Heroes-in-Time-Android15-Chinese/releases/download/v0.18.1/SEED3-parallel-HD-v18-fix.apk) · [Release 与校验文件](https://github.com/WSX-LY/SEED3-Heroes-in-Time-Android15-Chinese/releases/tag/v0.18.1)
+
+## v0.18.1 计时与并行实验修复
+
+- 保持用户认可的约20Hz逻辑节奏，显示提交独立调度；尚未实现人物/摄像机插值。
+- 增加运行时逻辑频率调节与日志；加入4路并行xBRZ实验，显式初始化共享查找表，修复New Game开场初始化竞态崩溃。
+- v18-fix已通过开场和城镇检查，首次并行/串行逐像素校验通过。当前城镇显示约46～52fps，**尚未达到稳定、流畅60fps**；并行处理尚未证实性能收益。
+- 这是开发实验版，旧版Release保留。安装需先卸载，卸载会清除本地数据。
+
 
 ## 静态资源协作包（2026-11-27）
 
@@ -26,7 +34,7 @@ python tools/asset-workflow.py validate static-assets/submissions/<task_id>/<aut
 
 **当前仅完成离线素材整理与协作协议，尚未实现 APK 打包读取替换映射或原生独立高清贴图加载。** 当前实时场景 xBRZ 不等于独立高清素材接入。原尺寸基线来自当前 decoded，可能含既有汉化；游戏素材权利归原权利人。本次未发布新 APK，Release 保持原样。
 
-## v0.15.0 更新
+## v0.18.1 更新
 
 - 新增 639 张 2× 操作界面素材、23 张 4× 悬浮人物立绘和表情，保留启动菜单 2× 资源。
 - 增加 xBRZ 4× 实时场景输出：512×256 → 2048×1024，独立 4× 场景贴图替换尚未完成。
@@ -73,7 +81,7 @@ python tools/asset-workflow.py validate static-assets/submissions/<task_id>/<aut
 ```powershell
 adb devices -l
 adb uninstall ch.kingdoms.market.compat
-adb install --no-incremental --bypass-low-target-sdk-block SEED3-scene-HD-experiment-v15.apk
+adb install --no-incremental --bypass-low-target-sdk-block SEED3-parallel-HD-v18-fix.apk
 adb shell am start -n ch.kingdoms.market.compat/ch.kingdoms.kor.KingdomsActivity
 ```
 
@@ -100,8 +108,8 @@ adb shell am start -n ch.kingdoms.market.compat/ch.kingdoms.kor.KingdomsActivity
 ```powershell
 java -jar tools/apktool.jar b decoded -o unsigned.apk
 zipalign -f 4 unsigned.apk aligned.apk
-apksigner sign --ks YOUR_KEYSTORE --out SEED3-scene-HD-experiment-v15.apk aligned.apk
-apksigner verify SEED3-scene-HD-experiment-v15.apk
+apksigner sign --ks YOUR_KEYSTORE --out SEED3-parallel-HD-v18-fix.apk aligned.apk
+apksigner verify SEED3-parallel-HD-v18-fix.apk
 ```
 
 Apktool JAR、原始 APK、构建输出、日志和签名密钥已排除出 Git。可从 Apktool 官方发布页获取工具。
@@ -114,7 +122,7 @@ Apktool JAR、原始 APK、构建输出、日志和签名密钥已排除出 Git�
 
 ## 高清预览与后续计划
 
-当前源码包含 v12 的 18 张启动及主菜单 2× 高清资源，组合使用 Real-ESRGAN 与 xBRZ，并通过资源密度保持原有显示尺寸。已实机确认进入标题触屏页，主菜单按钮仍待逐项验收；最新 Release 为 v0.15.0 高清实验版。
+当前源码包含 v12 的 18 张启动及主菜单 2× 高清资源，组合使用 Real-ESRGAN 与 xBRZ，并通过资源密度保持原有显示尺寸。已实机确认进入标题触屏页，主菜单按钮仍待逐项验收；最新 Release 为 v0.18.1 高清实验版。
 
 启动至主菜单资源保持当前效果。后续其他资源采用背景、人物 4×，其余 2×，倍率以原始素材为准，保持布局与交互区域，并检查画质、内存和加载情况。
 
@@ -126,10 +134,10 @@ Apktool JAR、原始 APK、构建输出、日志和签名密钥已排除出 Git�
 
 处理脚本及素材清单：`tools/upscale-ui.py`、`tools/upscale-ui-characters.py`、`tools/hd-ui-manifest.json`、`tools/hd-ui-characters-manifest.json`。工具依赖沿用前述环境；两份 Python 脚本支持 `--project` 与 `--work` 参数。
 
-v13 中间版已实机检查主操作界面与主要菜单；空背包、锁定技能状态下的检查不能覆盖所有内容。补齐立绘的 v14 已安装，实机确认主操作界面和角色页布局正常，4× 角色立绘显示完整，当前进程日志未检出崩溃或内存不足异常。其他 NPC 立绘、表情及全部物品详情尚未逐项验收。最新 Release 为 v0.15.0 高清实验版。
+v13 中间版已实机检查主操作界面与主要菜单；空背包、锁定技能状态下的检查不能覆盖所有内容。补齐立绘的 v14 已安装，实机确认主操作界面和角色页布局正常，4× 角色立绘显示完整，当前进程日志未检出崩溃或内存不足异常。其他 NPC 立绘、表情及全部物品详情尚未逐项验收。最新 Release 为 v0.18.1 高清实验版。
 
 ### 场景实时 4× 实验 v15
 
 已在实机验证将旧引擎完成的 512×256 场景画布，经 xBRZ 4× 输出至 2048×1024，保留 v14 高清界面。此实验尚未接入独立 4× 人物/地图贴图。城镇的开关对比、短距离移动和角色页正常；当前平均处理约 12ms、上传约 1ms，额外缓存和查找表约 73 MiB。战斗、全地图和长期性能未验收。
 
-原生图片和动画解析器已加入工具目录。实验构建、源代码、设备限制及对比开关见 [技术说明](tools/native-scene-hd/README.md)。最新 Release 为 v0.15.0 高清实验版。
+原生图片和动画解析器已加入工具目录。实验构建、源代码、设备限制及对比开关见 [技术说明](tools/native-scene-hd/README.md)。最新 Release 为 v0.18.1 高清实验版。

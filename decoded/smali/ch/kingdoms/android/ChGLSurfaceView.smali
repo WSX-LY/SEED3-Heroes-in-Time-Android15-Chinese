@@ -96,13 +96,11 @@
     invoke-interface {p1}, Ljavax/microedition/khronos/opengles/GL10;->glLoadIdentity()V
 
     .line 82
-    invoke-static {}, Lch/kingdoms/ndk/NdkGraphicManager;->callNativeTimerCallback()V
+    invoke-static {}, Lch/kingdoms/ndk/SceneHdBridge;->tick()V
 
     .line 85
     :try_start_1
-    invoke-static {}, Lch/kingdoms/ndk/NdkGraphicManager;->getSleepTime()I
-
-    move-result v1
+    const/4 v1, 0x1
 
     .line 86
     .local v1, "sleepTime":I

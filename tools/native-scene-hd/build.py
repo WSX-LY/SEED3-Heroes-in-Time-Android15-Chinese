@@ -5,7 +5,7 @@ expected_native_sha='cedcfda2db0848dee8599cd3c00317b4ce23dae9e0acf922c118d2303ba
 assert hashlib.sha256((project/'decoded/lib/armeabi/libndk_kingdoms.so').read_bytes()).hexdigest()==expected_native_sha, 'Native renderer changed; re-audit hook offsets before rebuilding'
 cc=[sys.executable,'-m','ziglang','cc','-target','arm-linux-androideabi','-mcpu=cortex_a53']
 cpp=[sys.executable,'-m','ziglang','c++','-target','arm-linux-androideabi','-mcpu=cortex_a53']
-stubs={'libc.so':['malloc','free','memcpy','memmove','memset','memcmp','abort','mprotect','getpagesize','clock_gettime'],'libdl.so':['dlopen','dlsym'],'liblog.so':['__android_log_print'],'libm.so':['sqrt']}
+stubs={'libc.so':['malloc','free','memcpy','memmove','memset','memcmp','abort','mprotect','getpagesize','clock_gettime','pthread_create','pthread_join'],'libdl.so':['dlopen','dlsym'],'liblog.so':['__android_log_print'],'libm.so':['sqrt']}
 for lib,names in stubs.items():
  src=work/(lib+'.c');src.write_text('\n'.join('void '+n+'(void){}' for n in names),encoding='utf8')
  subprocess.run(cc+['-shared','-nostdlib','-fPIC','-fno-builtin','-Wl,-soname,'+lib,'-o',str(work/lib),str(src)],check=True)

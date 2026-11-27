@@ -1,1 +1,1 @@
-{ global: JNI_OnLoad; Java_ch_kingdoms_ndk_SceneHdBridge_setEnabled; local: *; };
+{ global: JNI_OnLoad; Java_ch_kingdoms_ndk_SceneHdBridge_setEnabled; Java_ch_kingdoms_ndk_SceneHdBridge_nativeTick; Java_ch_kingdoms_ndk_SceneHdBridge_setLogicHz; local: *; };
