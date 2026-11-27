@@ -1,0 +1,18 @@
+{
+  "task_id": "从 tasks.json 复制",
+  "author": "开发者或智能体标识",
+  "tool": "xBRZ 或 Real-ESRGAN 等",
+  "tool_version": "实际版本",
+  "category": "ui",
+  "model": "实际模型或不适用",
+  "parameters": {},
+  "review_notes": "记录透明边缘、接缝、动画验证情况和限制",
+  "entries": [
+    {
+      "id": "从任务 ids 复制",
+      "source_sha256": "从 mapping 复制",
+      "scale": 2,
+      "file": "images/result.png"
+    }
+  ]
+}

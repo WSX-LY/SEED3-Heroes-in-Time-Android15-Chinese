@@ -6,6 +6,24 @@ Compatibility patches, layout fixes and ongoing Simplified Chinese UI localizati
 
 [Download APK](https://github.com/WSX-LY/SEED3-Heroes-in-Time-Android15-Chinese/releases/download/v0.15.0/SEED3-scene-HD-experiment-v15.apk) · [Release and checksums](https://github.com/WSX-LY/SEED3-Heroes-in-Time-Android15-Chinese/releases/tag/v0.15.0)
 
+## Static asset collaboration pack (2026-11-27)
+
+Developers and agents can share upscaling and detail-restoration work. The pack contains **1,157 native images**, or **2,094 entries including palette variants and Android drawable bitmaps**, grouped into **835 source-level tasks**. Coverage is limited to identified CBM/CMB and drawable image formats; unknown embedded images and all animation/map assembly relationships have not been exhaustively identified.
+
+Start with the [pack README](static-assets/README.md), [agent rules](static-assets/AGENTS.md), and [workflow](static-assets/WORKFLOW.md) (Chinese). [Originals](static-assets/originals/), [stable mapping](static-assets/mapping.json), [task queue](static-assets/tasks.json), and [submission example](static-assets/submission.example.json) are included. A coordinator assigns task IDs and owners before work begins; keep each source file's images and palettes together.
+
+Use original dimensions as the baseline: backgrounds/characters at 4×, other assets at 2×. Inspect images before classification; prefer xBRZ for pixel art and Real-ESRGAN for illustrations. Generated detail candidates should record their model and prompts. Existing v12 startup/menu assets are frozen; coordinate before reworking other existing HD assets. Preserve alpha, atlas layout, slice positions, and animation consistency.
+
+Submit RGBA PNGs, comparison images, and an isolated submission.json under `static-assets/submissions/<task_id>/<author>/`. From the repository root, with Python and Pillow:
+
+```powershell
+python tools/asset-workflow.py validate static-assets/submissions/<task_id>/<author>
+```
+
+The validator checks source hashes, task coverage, dimensions, scale, obvious transparency loss, and path traversal. Visual quality, seams, animation, and runtime behavior still require review. Do not rerun the exporter during collaboration: it overwrites the baseline. Original-size inputs come from the current decoded tree and may include existing localization.
+
+**This is an offline asset pack and submission protocol. APK mapping consumption and independent native HD texture loading are not implemented.** Real-time scene xBRZ is separate. No new APK or release is published with this change. Original game asset rights remain with their owners.
+
 ## v0.15.0 changes
 
 - Add 639 UI assets at 2× and 23 floating character illustration/expression assets at 4×; retain the 2× startup/menu assets.

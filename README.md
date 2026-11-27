@@ -6,6 +6,26 @@
 
 [下载最新 APK](https://github.com/WSX-LY/SEED3-Heroes-in-Time-Android15-Chinese/releases/download/v0.15.0/SEED3-scene-HD-experiment-v15.apk) · [Release 与校验文件](https://github.com/WSX-LY/SEED3-Heroes-in-Time-Android15-Chinese/releases/tag/v0.15.0)
 
+## 静态资源协作包（2026-11-27）
+
+欢迎开发者和智能体分工处理静态图片超分与细节补绘。已导出全部已识别 CBM/CMB 图片与原始 Android drawable 位图：**1157 张原生图片，计入调色板变体后共 2094 个条目，按源文件分为 835 个任务**。这不代表已排查所有未知数据格式，也不代表全部动画组合、地图拼装关系已解析。
+
+- 从 [协作包入口](static-assets/README.md)、[智能体执行规则](static-assets/AGENTS.md) 和 [详细工作流程](static-assets/WORKFLOW.md) 开始。
+- [原图目录](static-assets/originals/) 保留原尺寸输入；[稳定映射](static-assets/mapping.json) 记录源路径、SHA256、图片/调色板索引、尺寸和切片坐标。
+- 协调者在 [任务表](static-assets/tasks.json) 分配 task_id 和 owner；同源图集与调色板一起处理。任务初始均未认领，先认领再生成，避免重复劳动。
+- 背景、人物按原图宽高 **4×**，其余 **2×**；先看图确认类别。像素风优先 xBRZ，插画优先 Real-ESRGAN，未来也可提交生成模型补细节候选并记录模型与提示词。启动至主菜单 v12 资源冻结，既有高清资源重做需协调者确认。
+- 交付独立 `submissions/<task_id>/<author>/submission.json`、RGBA PNG 与对比图，格式见 [提交示例](static-assets/submission.example.json)。保留布局、透明通道、切片与动画连续性，不直接改总映射或游戏代码。
+
+在项目根运行（Python + Pillow）：
+
+```powershell
+python tools/asset-workflow.py validate static-assets/submissions/<task_id>/<author>
+```
+
+校验覆盖源哈希、任务完整性、尺寸、倍率、透明通道明显丢失和路径越界；视觉质量、图集接缝与动画仍需人工检查。原图与映射已生成，参与者无需重新导出；再导出会覆盖基线，初始化工具见 `tools/export-static-assets.py`。
+
+**当前仅完成离线素材整理与协作协议，尚未实现 APK 打包读取替换映射或原生独立高清贴图加载。** 当前实时场景 xBRZ 不等于独立高清素材接入。原尺寸基线来自当前 decoded，可能含既有汉化；游戏素材权利归原权利人。本次未发布新 APK，Release 保持原样。
+
 ## v0.15.0 更新
 
 - 新增 639 张 2× 操作界面素材、23 张 4× 悬浮人物立绘和表情，保留启动菜单 2× 资源。
